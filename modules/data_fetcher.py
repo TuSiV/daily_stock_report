@@ -309,6 +309,9 @@ class DataFetcher:
         # Source 3: 10jqka News
         self._fetch_news_10jqka(news, geo_keywords, policy_keywords)
         
+        # Source 4: CLS (财联社) News
+        self._fetch_news_cls(news, geo_keywords, policy_keywords)
+        
         # If no geopolitics news found, add default
         if not news['geopolitics']:
             news['geopolitics'].append({'title': '今日无重大地缘政治事件', 'digest': ''})
@@ -386,3 +389,46 @@ class DataFetcher:
                             news['policy'].append(entry)
         except Exception as e:
             print(f'10jqka news error: {e}')
+    
+    def _fetch_news_cls(self, news, geo_keywords, policy_keywords):
+        """Fetch news from CLS (财联社)"""
+        try:
+            # CLS Telegraph API
+            url = 'https://www.cls.cn/nodeapi/updateTelegraphList'
+            params = {'app': 'CailianpressWeb', 'os': 'web', 'sv': '7.7.5'}
+            resp = self._safe_get(url, params=params)
+            if resp:
+                data = resp.json()
+                if data.get('data'):
+                    items = data['data'].get('roll_data', [])
+                    for item in items[:15]:
+                        content = item.get('content', '')
+                        title = content[:100] if content else ''
+                        if title:
+                            entry = {'title': title, 'digest': content, 'source': 'cls'}
+                            if any(kw in content for kw in geo_keywords):
+                                news['geopolitics'].append(entry)
+                            elif any(kw in content for kw in policy_keywords):
+                                news['policy'].append(entry)
+                            else:
+                                news['other'].append(entry)
+            
+            # CLS News List API
+            url2 = 'https://www.cls.cn/nodeapi/telegraphList'
+            params2 = {'app': 'CailianpressWeb', 'os': 'web', 'sv': '7.7.5', 'rn': '10'}
+            resp2 = self._safe_get(url2, params=params2)
+            if resp2:
+                data2 = resp2.json()
+                if data2.get('data'):
+                    items2 = data2['data'].get('roll_data', [])
+                    for item in items2[:10]:
+                        content = item.get('content', '')
+                        title = content[:100] if content else ''
+                        if title:
+                            entry = {'title': title, 'digest': content, 'source': 'cls'}
+                            if any(kw in content for kw in geo_keywords):
+                                news['geopolitics'].append(entry)
+                            elif any(kw in content for kw in policy_keywords):
+                                news['policy'].append(entry)
+        except Exception as e:
+            print(f'CLS news error: {e}')
