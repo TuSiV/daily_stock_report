@@ -72,25 +72,65 @@ class DataFetcher:
     def _fetch_commodity(self, time_info):
         result = {'gold':{}, 'wti':{}, 'brent':{}, 'summary':''}
         try:
-            # Try eastmoney futures API
-            symbols = [('gold','GC'),('wti','CL'),('brent','BZ')]
-            for key, code in symbols:
-                url = f'https://push2.eastmoney.com/api/qt/stock/get?secid=113.{code}00Y&fields=f43,f44,f45,f46,f170'
+            # Try multiple API formats for commodities
+            commodity_apis = [
+                # Format 1: Eastmoney futures
+                ('gold', '113.GC00Y', 'f43,f170'),
+                ('wti', '113.CL00Y', 'f43,f170'),
+                ('brent', '113.BZ00Y', 'f43,f170'),
+                # Format 2: Alternative codes
+                ('gold', '113.GCmain', 'f43,f170'),
+                ('wti', '113.CLmain', 'f43,f170'),
+                ('brent', '113.BZmain', 'f43,f170'),
+            ]
+            
+            for key, secid, fields in commodity_apis:
+                if result[key]:  # Skip if already have data
+                    continue
+                url = f'https://push2.eastmoney.com/api/qt/stock/get?secid={secid}&fields={fields}'
                 resp = self._safe_get(url)
                 if resp:
                     d = resp.json().get('data')
-                    if d:
+                    if d and d.get('f43'):
                         result[key] = {
                             'price': str(d.get('f43', 0) / 100),
                             'pct': str(d.get('f170', 0) / 100)
                         }
+            
+            # Fallback to Sina Finance if still no data
+            if not result['gold']:
+                result = self._fetch_commodity_sina(result)
+            
+            # Default values if still empty
             if not result['gold']:
                 result['gold'] = {'price': '2350.00', 'pct': '0.5'}
                 result['wti'] = {'price': '78.50', 'pct': '-0.3'}
                 result['brent'] = {'price': '82.30', 'pct': '-0.2'}
+            
             result['summary'] = '黄金价格高位震荡，原油价格小幅回落'
         except Exception as e:
             print(f'Commodity fetch error: {e}')
+        return result
+    
+    def _fetch_commodity_sina(self, result):
+        """Fetch commodity data from Sina Finance"""
+        try:
+            url = 'https://hq.sinajs.cn/list=hf_GC,hf_CL,hf_OIL'
+            resp = self._safe_get(url)
+            if resp:
+                text = resp.text
+                # Parse Sina format
+                for line in text.split('\n'):
+                    if 'hf_GC' in line:
+                        parts = line.split(',')
+                        if len(parts) > 8:
+                            result['gold'] = {'price': parts[0].split('"')[1], 'pct': parts[8] if len(parts) > 8 else '0'}
+                    elif 'hf_CL' in line:
+                        parts = line.split(',')
+                        if len(parts) > 8:
+                            result['wti'] = {'price': parts[0].split('"')[1], 'pct': parts[8] if len(parts) > 8 else '0'}
+        except Exception as e:
+            print(f'Sina commodity error: {e}')
         return result
 
     def _fetch_a_stock(self, time_info):
@@ -227,23 +267,61 @@ class DataFetcher:
     def _fetch_northbound(self, time_info):
         result = {'total_net':0, 'top_buy':[]}
         try:
-            url = 'https://push2.eastmoney.com/api/qt/kamt.rtmin/get?fields1=f1,f2,f3,f4&fields2=f51,f52,f53,f54,f55,f56'
-            resp = self._safe_get(url)
-            if resp:
-                data = resp.json()
-                result['total_net'] = data.get('data', {}).get('s2n', 0)
+            # Try multiple northbound APIs
+            urls = [
+                'https://push2.eastmoney.com/api/qt/kamt.rtmin/get?fields1=f1,f2,f3,f4&fields2=f51,f52,f53,f54,f55,f56',
+                'https://push2.eastmoney.com/api/qt/kamtbs.wpt?fields=f1,f2,f3,f4',
+            ]
+            
+            for url in urls:
+                try:
+                    resp = self._safe_get(url)
+                    if resp:
+                        data = resp.json()
+                        # Handle different response formats
+                        if isinstance(data.get('data'), dict):
+                            result['total_net'] = data['data'].get('s2n', 0)
+                            break
+                        elif isinstance(data.get('data'), list):
+                            # Alternative format
+                            if data['data']:
+                                result['total_net'] = data['data'][0].get('f1', 0)
+                                break
+                except:
+                    continue
         except Exception as e:
             print(f'Northbound fetch error: {e}')
         return result
 
     def _fetch_news(self, time_info):
         news = {'geopolitics':[], 'policy':[], 'other':[]}
+        
+        # Keywords for categorization
+        geo_keywords = ['冲突', '制裁', '外交', '军事', '战争', '地缘', '特朗普', '拜登', '俄罗斯', '乌克兰', '中东', '朝鲜', '伊朗', '中美', '贸易']
+        policy_keywords = ['央行', '货币政策', '财政', '利率', '降准', '降息', '监管', '政策', '国务院', '证监会', '银保监', '发改委']
+        
+        # Source 1: Eastmoney News
+        self._fetch_news_eastmoney(news, geo_keywords, policy_keywords)
+        
+        # Source 2: Sina Finance News
+        self._fetch_news_sina(news, geo_keywords, policy_keywords)
+        
+        # Source 3: 10jqka News
+        self._fetch_news_10jqka(news, geo_keywords, policy_keywords)
+        
+        # If no geopolitics news found, add default
+        if not news['geopolitics']:
+            news['geopolitics'].append({'title': '今日无重大地缘政治事件', 'digest': ''})
+        
+        return news
+    
+    def _fetch_news_eastmoney(self, news, geo_keywords, policy_keywords):
+        """Fetch news from Eastmoney"""
         try:
             url = 'https://newsapi.eastmoney.com/kuaixun/v1/getlist_101_ajaxResult_50_1_.html'
             resp = self._safe_get(url)
             if resp:
                 text = resp.text
-                # Parse the JavaScript response
                 import re
                 match = re.search(r'var ajaxResult\s*=\s*(\{.*\})', text, re.DOTALL)
                 if match:
@@ -251,19 +329,13 @@ class DataFetcher:
                     data = json.loads(json_str)
                     items = data.get('LivesList', [])
                     
-                    # Keywords for geopolitics
-                    geo_keywords = ['冲突', '制裁', '外交', '军事', '战争', '地缘', '特朗普', '拜登', '俄罗斯', '乌克兰', '中东', '朝鲜', '伊朗']
-                    # Keywords for policy
-                    policy_keywords = ['央行', '货币政策', '财政', '利率', '降准', '降息', '监管', '政策', '国务院', '证监会']
-                    
                     for item in items[:15]:
                         title = item.get('title', '')
                         digest = item.get('digest', '')
                         full_text = title + ' ' + digest
                         
-                        entry = {'title': title, 'digest': digest}
+                        entry = {'title': title, 'digest': digest, 'source': 'eastmoney'}
                         
-                        # Categorize
                         if any(kw in full_text for kw in geo_keywords):
                             news['geopolitics'].append(entry)
                         elif any(kw in full_text for kw in policy_keywords):
@@ -271,10 +343,46 @@ class DataFetcher:
                         else:
                             news['other'].append(entry)
         except Exception as e:
-            print(f'News fetch error: {e}')
-        
-        # If no geopolitics news found, add default
-        if not news['geopolitics']:
-            news['geopolitics'].append({'title': '今日无重大地缘政治事件', 'digest': ''})
-        
-        return news
+            print(f'Eastmoney news error: {e}')
+    
+    def _fetch_news_sina(self, news, geo_keywords, policy_keywords):
+        """Fetch news from Sina Finance"""
+        try:
+            url = 'https://finance.sina.com.cn/'
+            resp = self._safe_get(url)
+            if resp:
+                from bs4 import BeautifulSoup
+                soup = BeautifulSoup(resp.text, 'lxml')
+                # Find news links
+                links = soup.find_all('a', href=True)
+                for link in links[:20]:
+                    title = link.get_text().strip()
+                    if title and len(title) > 10:
+                        entry = {'title': title, 'digest': '', 'source': 'sina'}
+                        if any(kw in title for kw in geo_keywords):
+                            news['geopolitics'].append(entry)
+                        elif any(kw in title for kw in policy_keywords):
+                            news['policy'].append(entry)
+        except Exception as e:
+            print(f'Sina news error: {e}')
+    
+    def _fetch_news_10jqka(self, news, geo_keywords, policy_keywords):
+        """Fetch news from 10jqka"""
+        try:
+            url = 'https://news.10jqka.com.cn/'
+            resp = self._safe_get(url)
+            if resp:
+                from bs4 import BeautifulSoup
+                soup = BeautifulSoup(resp.text, 'lxml')
+                # Find news links
+                links = soup.find_all('a', href=True)
+                for link in links[:20]:
+                    title = link.get_text().strip()
+                    if title and len(title) > 10:
+                        entry = {'title': title, 'digest': '', 'source': '10jqka'}
+                        if any(kw in title for kw in geo_keywords):
+                            news['geopolitics'].append(entry)
+                        elif any(kw in title for kw in policy_keywords):
+                            news['policy'].append(entry)
+        except Exception as e:
+            print(f'10jqka news error: {e}')
