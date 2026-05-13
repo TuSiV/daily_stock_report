@@ -108,7 +108,9 @@ class DataFetcher:
                             'pct': str(d.get('f170', 0) / 100),
                             'vol': str(d.get('f48', 0) / 100000000)
                         }
-                        result['total_vol'] += d.get('f48', 0) / 100000000
+                        # 只累加上证和深证的成交量（创业板是深证的一部分，不能重复计算）
+                        if key in ['sh', 'sz']:
+                            result['total_vol'] += d.get('f48', 0) / 100000000
         except Exception as e:
             print(f'A stock fetch error: {e}')
         return result
