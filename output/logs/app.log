@@ -1,0 +1,268 @@
+2026-05-13 11:14:50,702 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 11:14:50,705 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 11:14:51,300 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 11:15:03,805 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 11:15:03,807 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 11:15:03,807 - utils.logger - INFO - 第五步：生成报告
+2026-05-13 11:15:03,811 - utils.logger - INFO - 第六步：转换为PNG和PDF
+2026-05-13 11:15:04,280 - utils.logger - INFO - 第七步：发送邮件
+2026-05-13 11:15:04,280 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 12:01:43,303 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 12:01:43,319 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 12:01:43,950 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 12:01:56,861 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 12:01:56,863 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 12:01:56,863 - utils.logger - INFO - 第五步：生成报告
+2026-05-13 12:01:56,864 - utils.logger - INFO - 第六步：转换为PNG和PDF
+2026-05-13 12:01:59,270 - utils.logger - INFO - 第七步：发送邮件
+2026-05-13 12:01:59,270 - utils.logger - ERROR - 执行过程中发生错误: stat: path should be string, bytes, os.PathLike or integer, not NoneType
+2026-05-13 12:02:48,811 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 12:02:48,814 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 12:02:49,490 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 12:03:02,202 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 12:03:02,202 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 12:03:02,202 - utils.logger - INFO - 第五步：生成报告
+2026-05-13 12:03:02,207 - utils.logger - INFO - 第六步：转换为PNG和PDF
+2026-05-13 12:03:03,188 - utils.logger - INFO - 第七步：发送邮件
+2026-05-13 12:03:04,761 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 12:05:38,510 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 12:05:38,514 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 12:05:39,002 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 12:05:51,668 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 12:05:51,669 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 12:05:51,669 - utils.logger - INFO - 第五步：生成报告
+2026-05-13 12:05:51,672 - utils.logger - INFO - 第六步：转换为PNG和PDF
+2026-05-13 12:05:52,734 - utils.logger - INFO - 第七步：发送邮件
+2026-05-13 12:05:54,093 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 12:07:43,816 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 12:07:43,817 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 12:07:44,485 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 12:07:57,175 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 12:07:57,175 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 12:07:57,175 - utils.logger - INFO - 第五步：生成报告
+2026-05-13 12:07:57,181 - utils.logger - INFO - 第六步：转换为PNG和PDF
+2026-05-13 12:07:58,217 - utils.logger - INFO - 第七步：发送邮件
+2026-05-13 12:07:59,897 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 12:12:48,737 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 12:12:48,738 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 12:12:49,366 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 12:13:01,345 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 12:13:01,345 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 12:13:01,346 - utils.logger - INFO - 第五步：生成报告
+2026-05-13 12:13:01,348 - utils.logger - INFO - 第六步：转换为PNG和PDF
+2026-05-13 12:13:02,381 - utils.logger - INFO - 第七步：发送邮件
+2026-05-13 12:13:03,843 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 12:13:56,316 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 12:13:56,316 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 12:13:56,954 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 12:14:08,915 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 12:14:08,915 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 12:14:08,915 - utils.logger - INFO - 第五步：生成报告
+2026-05-13 12:14:08,918 - utils.logger - INFO - 第六步：转换为PNG和PDF
+2026-05-13 12:14:09,746 - utils.logger - INFO - 第七步：发送邮件
+2026-05-13 12:14:11,358 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 12:15:11,108 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 12:15:11,108 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 12:15:21,218 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 12:15:33,322 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 12:15:33,324 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 12:15:33,325 - utils.logger - INFO - 第五步：生成报告
+2026-05-13 12:15:33,343 - utils.logger - INFO - 第六步：转换为PNG和PDF
+2026-05-13 12:15:34,555 - utils.logger - INFO - 第七步：发送邮件
+2026-05-13 12:15:36,027 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 12:16:12,182 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 12:16:12,185 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 12:16:12,846 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 12:16:24,530 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 12:16:24,530 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 12:16:24,531 - utils.logger - INFO - 第五步：生成报告
+2026-05-13 12:16:24,536 - utils.logger - INFO - 第六步：转换为PNG和PDF
+2026-05-13 12:16:25,740 - utils.logger - INFO - 第七步：发送邮件
+2026-05-13 12:16:27,261 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 12:17:21,277 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 12:17:21,280 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 12:17:21,842 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 12:17:33,479 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 12:17:33,479 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 12:17:33,481 - utils.logger - INFO - 第五步：生成报告
+2026-05-13 12:17:33,483 - utils.logger - INFO - 第六步：转换为PNG和PDF
+2026-05-13 12:17:34,384 - utils.logger - INFO - 第七步：发送邮件
+2026-05-13 12:17:35,762 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 12:19:12,247 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 12:19:12,250 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 12:19:12,920 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 12:19:25,108 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 12:19:25,108 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 12:19:25,110 - utils.logger - INFO - 第五步：生成报告
+2026-05-13 12:19:25,113 - utils.logger - INFO - 第六步：转换为PNG和PDF
+2026-05-13 12:19:26,079 - utils.logger - INFO - 第七步：发送邮件
+2026-05-13 12:19:27,330 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 12:20:06,049 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 12:20:06,050 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 12:20:06,768 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 12:20:18,603 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 12:20:18,603 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 12:20:18,603 - utils.logger - INFO - 第五步：生成报告
+2026-05-13 12:20:18,609 - utils.logger - INFO - 第六步：转换为PNG和PDF
+2026-05-13 12:20:19,430 - utils.logger - INFO - 第七步：发送邮件
+2026-05-13 12:20:21,061 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 12:22:57,827 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 12:22:57,827 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 12:22:58,447 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 12:23:10,688 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 12:23:10,688 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 12:23:10,690 - utils.logger - INFO - 第五步：生成报告
+2026-05-13 12:23:10,692 - utils.logger - INFO - 第六步：转换为PNG和PDF
+2026-05-13 12:23:11,613 - utils.logger - INFO - 第七步：发送邮件
+2026-05-13 12:23:13,137 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 12:27:59,066 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 12:27:59,068 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 12:27:59,721 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 12:28:12,018 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 12:28:12,019 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 12:28:20,031 - utils.logger - INFO - 第五步：生成报告
+2026-05-13 12:28:20,040 - utils.logger - INFO - 第六步：转换为PNG和PDF
+2026-05-13 12:28:20,913 - utils.logger - INFO - 第七步：发送邮件
+2026-05-13 12:28:22,550 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 12:29:59,996 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 12:29:59,997 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 12:30:00,860 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 12:30:12,914 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 12:30:12,917 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 12:30:21,469 - utils.logger - INFO - 第五步：生成报告
+2026-05-13 12:30:21,476 - utils.logger - INFO - 第六步：转换为PNG和PDF
+2026-05-13 12:30:22,402 - utils.logger - INFO - 第七步：发送邮件
+2026-05-13 12:30:24,086 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 12:33:25,945 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 12:33:25,949 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 12:33:26,549 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 12:33:38,272 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 12:33:38,272 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 12:33:45,481 - utils.logger - INFO - 第五步：生成报告
+2026-05-13 12:33:45,486 - utils.logger - INFO - 第六步：转换为PNG和PDF
+2026-05-13 12:33:46,187 - utils.logger - INFO - 第七步：发送邮件
+2026-05-13 12:33:47,823 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 12:35:05,202 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 12:35:05,202 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 12:35:05,667 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 12:35:18,060 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 12:35:18,060 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 12:35:24,938 - utils.logger - INFO - 第五步：生成报告
+2026-05-13 12:35:24,940 - utils.logger - INFO - 第六步：转换为PNG和PDF
+2026-05-13 12:35:25,594 - utils.logger - INFO - 第七步：发送邮件
+2026-05-13 12:35:27,098 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 14:51:10,085 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 14:51:10,086 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 14:51:10,720 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 14:51:24,906 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 14:51:24,906 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 14:51:31,495 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 14:51:31,495 - utils.logger - ERROR - 执行过程中发生错误: name 'news_news' is not defined
+2026-05-13 14:51:51,653 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 14:51:51,653 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 14:51:52,289 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 14:52:05,167 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 14:52:05,169 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 14:52:10,794 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 14:52:11,173 - utils.logger - ERROR - 执行过程中发生错误: Unknown format code 'f' for object of type 'str'
+2026-05-13 14:52:53,759 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 14:52:53,759 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 14:52:54,245 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 14:53:06,479 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 14:53:06,479 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 14:53:13,821 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 14:53:19,577 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 14:53:19,592 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 14:53:20,274 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 14:53:21,993 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 14:59:06,470 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 14:59:06,470 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 14:59:06,899 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 14:59:18,981 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 14:59:18,981 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 14:59:24,897 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 14:59:33,640 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 14:59:41,481 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:00:01,396 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:00:11,306 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:00:28,972 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:00:37,805 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:00:47,937 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:00:57,055 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:01:23,976 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:01:30,614 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:01:48,384 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:02:01,576 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:02:01,581 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 15:02:01,592 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 15:02:01,939 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 15:02:03,511 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 15:05:19,344 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 15:05:19,344 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 15:05:19,765 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 15:05:32,173 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 15:05:32,173 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 15:05:39,112 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 15:05:55,110 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:06:09,937 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:06:27,673 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:06:44,607 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:06:53,801 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:07:05,166 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:07:20,763 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:07:29,063 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:07:41,618 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:07:49,620 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:08:01,970 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:08:07,742 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:08:07,742 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 15:08:07,746 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 15:08:08,107 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 15:08:09,810 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 15:21:50,713 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 15:21:50,715 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 15:21:52,652 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 15:22:05,119 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 15:22:05,119 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 15:22:12,485 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 15:22:24,342 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:22:40,534 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:22:59,726 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:23:10,613 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:23:20,705 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:23:31,759 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:23:42,652 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:23:56,386 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:24:06,025 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:24:21,082 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:24:31,572 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:24:42,631 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:24:42,633 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 15:24:42,649 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 15:24:43,127 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 15:24:44,916 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 15:30:30,392 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 15:30:30,395 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 15:30:30,923 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 15:30:42,949 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 15:30:42,950 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 15:30:51,829 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 15:30:58,895 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:31:07,751 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:31:16,642 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:31:30,517 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:31:45,180 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:31:55,207 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:32:09,234 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:32:24,744 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:32:38,391 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:32:51,508 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:33:00,825 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:33:11,994 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:33:29,268 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:33:36,307 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:33:44,641 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 15:33:44,645 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 15:33:44,665 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 15:33:45,190 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 15:33:46,874 - utils.logger - INFO - 每日选股分析任务完成
