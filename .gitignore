@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Environment variables (contains API keys and passwords)
+.env
+
+# Output files
+output/reports/*.md
+output/reports/*.html
+output/reports/*.pdf
+output/reports/*.png
+output/logs/*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+_*.py
+*.tmp

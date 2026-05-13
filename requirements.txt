@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+lxml
+markdown
+weasyprint
+pdf2image
+Pillow
