@@ -228,16 +228,24 @@ class DataFetcher:
     def _fetch_lhb(self, time_info):
         result = {'top_buy':[], 'inst_buy':[], 'north_buy':[]}
         try:
-            # Try multiple dates to find data
-            base_date = time_info.get('last_trading_date', time_info['date'])
-            dates_to_try = [base_date]
+            # Always use today's date first, then fall back to previous days
+            today = time_info.get('date', '')
+            last_trading = time_info.get('last_trading_date', today)
             
-            # Add previous days if needed
+            # Priority: today > last_trading_date > previous days
+            dates_to_try = [today]
+            if last_trading != today:
+                dates_to_try.append(last_trading)
+            
+            # Add previous days as fallback
             try:
-                dt = datetime.strptime(base_date, '%Y-%m-%d')
+                from datetime import datetime, timedelta
+                dt = datetime.strptime(today, '%Y-%m-%d')
                 for i in range(1, 5):
                     prev_date = dt - timedelta(days=i)
-                    dates_to_try.append(prev_date.strftime('%Y-%m-%d'))
+                    date_str = prev_date.strftime('%Y-%m-%d')
+                    if date_str not in dates_to_try:
+                        dates_to_try.append(date_str)
             except:
                 pass
             
@@ -256,9 +264,10 @@ class DataFetcher:
                                     'code': item.get('SECURITY_CODE', ''),
                                     'net_buy': item.get('BILLBOARD_NET_AMT', 0) / 10000,
                                     'pct': item.get('CHANGE_RATE', 0),
-                                    'close': item.get('CLOSE_PRICE', 0)
+                                    'close': item.get('CLOSE_PRICE', 0),
+                                    'trade_date': item.get('TRADE_DATE', '')[:10]
                                 })
-                            print(f'LHB data found for {date_str}')
+                            print(f'LHB data found for {date_str} ({len(items)} items)')
                             break
         except Exception as e:
             print(f'LHB fetch error: {e}')
