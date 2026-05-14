@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import json
 import requests
 from dataclasses import dataclass
 from typing import List
@@ -54,16 +55,45 @@ class BuyPoint:
 class ChanAnalyzer:
     def __init__(self):
         self.headers = {"User-Agent": USER_AGENT}
+        self.session = requests.Session()
+        self.session.headers.update(self.headers)
     
     def get_klines(self, code, period="daily", count=100):
+        # 根据股票代码判断市场
         if code.startswith("6"):
             secid = f"1.{code}"
+        elif code.startswith("0") or code.startswith("3"):
+            secid = f"0.{code}"
+        elif code.startswith("8") or code.startswith("4"):
+            secid = f"0.{code}"
         else:
             secid = f"0.{code}"
         
         klt_map = {"daily": 101, "60min": 60, "15min": 15, "30min": 30, "weekly": 102}
         klt = klt_map.get(period, 101)
         
+        # 1. 优先尝试东方财富API
+        klines = self._get_klines_eastmoney(secid, klt, count)
+        if klines:
+            return klines
+        
+        # 2. 如果东方财富失败，尝试新浪财经备用API
+        print(f"Eastmoney K-line failed for {code}, trying Sina fallback...")
+        klines = self._get_klines_sina(code, period, count)
+        if klines:
+            return klines
+        
+        # 3. 如果新浪也失败，尝试腾讯财经备用API
+        print(f"Sina K-line failed for {code}, trying Tencent fallback...")
+        klines = self._get_klines_tencent(code, period, count)
+        if klines:
+            return klines
+        
+        print(f"All K-line sources failed for {code}")
+        return []
+    
+    def _get_klines_eastmoney(self, secid, klt, count):
+        """从东方财富获取K线数据"""
         url = "https://push2his.eastmoney.com/api/qt/stock/kline/get"
         params = {
             "secid": secid,
@@ -77,7 +107,7 @@ class ChanAnalyzer:
         }
         
         try:
-            resp = requests.get(url, params=params, headers=self.headers, timeout=REQUEST_TIMEOUT)
+            resp = self.session.get(url, params=params, timeout=REQUEST_TIMEOUT)
             data = resp.json()
             klines = []
             if data.get("data") and data["data"].get("klines"):
@@ -94,8 +124,88 @@ class ChanAnalyzer:
                     ))
             return klines
         except Exception as e:
-            print(f"K-line fetch error: {e}")
             return []
+    
+    def _get_klines_sina(self, code, period, count):
+        """从新浪财经获取K线数据（备用）"""
+        try:
+            # 新浪财经K线API
+            period_map = {"daily": "240", "60min": "60", "15min": "15", "30min": "30", "weekly": "1200"}
+            period_sina = period_map.get(period, "240")
+            
+            url = f"https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData"
+            params = {
+                "symbol": f"sh{code}" if code.startswith("6") else f"sz{code}",
+                "scale": period_sina,
+                "ma": "no",
+                "datalen": count
+            }
+            
+            resp = self.session.get(url, params=params, timeout=REQUEST_TIMEOUT)
+            if resp and resp.status_code == 200:
+                # 解析JSONP响应
+                text = resp.text
+                json_str = text[text.index("(") + 1:text.rindex(")")]
+                data = json.loads(json_str)
+                
+                klines = []
+                for i, item in enumerate(data):
+                    klines.append(Kline(
+                        date=item.get("day", ""),
+                        open=float(item.get("open", 0)),
+                        close=float(item.get("close", 0)),
+                        high=float(item.get("high", 0)),
+                        low=float(item.get("low", 0)),
+                        volume=float(item.get("volume", 0)),
+                        index=i
+                    ))
+                return klines
+        except Exception as e:
+            print(f"Sina K-line error: {e}")
+        return []
+    
+    def _get_klines_tencent(self, code, period, count):
+        """从腾讯财经获取K线数据（备用）"""
+        try:
+            # 腾讯财经K线API
+            period_map = {"daily": "day", "60min": "60min", "15min": "15min", "30min": "30min", "weekly": "week"}
+            period_qq = period_map.get(period, "day")
+            
+            market = "sh" if code.startswith("6") else "sz"
+            url = f"https://web.ifzq.gtimg.cn/appstock/app/fqkline/get"
+            params = {
+                "param": f"{market}{code},{period_qq},,{count},qfq",
+                "_var": f"kline_{period_qq}"
+            }
+            
+            resp = self.session.get(url, params=params, timeout=REQUEST_TIMEOUT)
+            if resp and resp.status_code == 200:
+                text = resp.text
+                # 解析响应
+                json_str = text[text.index("=") + 1:]
+                data = json.loads(json_str)
+                
+                klines = []
+                if data.get("data") and data["data"].get(f"{market}{code}"):
+                    stock_data = data["data"][f"{market}{code}"]
+                    kline_key = f"qfq{period_qq}" if f"qfq{period_qq}" in stock_data else period_qq
+                    
+                    if kline_key in stock_data:
+                        for i, item in enumerate(stock_data[kline_key]):
+                            if len(item) >= 6:
+                                klines.append(Kline(
+                                    date=item[0],
+                                    open=float(item[1]),
+                                    close=float(item[2]),
+                                    high=float(item[3]),
+                                    low=float(item[4]),
+                                    volume=float(item[5]) if len(item) > 5 else 0,
+                                    index=i
+                                ))
+                return klines
+        except Exception as e:
+            print(f"Tencent K-line error: {e}")
+        return []
     
     def find_fractals(self, klines):
         fractals = []

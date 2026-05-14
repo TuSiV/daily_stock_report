@@ -366,3 +366,1209 @@
 2026-05-13 16:47:29,837 - utils.logger - INFO - 第七步：转换为PNG和PDF
 2026-05-13 16:47:30,356 - utils.logger - INFO - 第八步：发送邮件
 2026-05-13 16:47:33,480 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 17:41:41,034 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 17:41:41,036 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 17:41:41,509 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 17:42:00,833 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 17:42:00,833 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 17:42:07,827 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 17:42:07,827 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 17:42:07,832 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 17:42:08,040 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 17:42:09,557 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 17:53:49,929 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 17:53:49,929 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 17:53:50,368 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 17:54:09,654 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 17:54:09,654 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 17:54:16,578 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 17:54:16,578 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 17:54:16,582 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 17:54:16,694 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 17:54:18,200 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 18:03:35,367 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 18:03:35,367 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 18:03:35,840 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 18:03:54,990 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 18:03:54,991 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 18:04:01,956 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 18:04:01,956 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 18:04:01,961 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 18:04:02,083 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 18:04:03,348 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 18:06:52,183 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 18:06:52,184 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 18:06:52,636 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 18:07:06,747 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 18:07:06,747 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 18:07:13,884 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 18:07:13,884 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 18:07:13,888 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 18:07:13,997 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 18:07:15,213 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 18:37:49,281 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 18:37:49,282 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 18:37:49,738 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 18:38:04,834 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 18:38:04,834 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 18:38:11,868 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 18:38:11,868 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 18:38:11,883 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 18:38:12,192 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 18:38:13,536 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 18:41:41,008 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 18:41:41,009 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 18:41:41,483 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 18:41:55,450 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 18:41:55,450 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 18:42:01,660 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 18:42:11,530 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:42:20,466 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:42:27,673 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:42:32,368 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:42:40,819 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:42:46,671 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:42:53,955 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:43:00,903 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:43:05,717 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:43:10,938 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:43:20,546 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:43:31,275 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:43:47,294 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:43:53,743 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:44:01,563 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:44:17,059 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:44:32,706 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:44:43,353 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:44:57,729 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:45:08,221 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:45:25,226 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:45:36,447 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 18:45:36,448 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 18:45:36,453 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 18:45:36,567 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 18:45:37,824 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 19:00:07,409 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 19:00:07,409 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 19:00:07,945 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 19:00:22,191 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 19:00:22,192 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 19:00:30,508 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 19:00:36,630 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:00:43,456 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:00:54,172 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:01:02,838 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:01:14,883 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:01:25,728 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:01:35,192 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:01:41,751 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:01:50,623 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:01:57,011 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:02:05,723 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:02:17,108 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:02:26,344 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:02:36,818 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:02:52,050 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:03:01,347 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:03:13,686 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:03:23,563 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:03:35,322 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:03:45,966 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:03:57,430 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:04:02,185 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:04:02,186 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 19:04:02,190 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 19:04:02,290 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 19:04:03,575 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 19:13:00,565 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 19:13:00,566 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 19:13:01,018 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 19:13:15,216 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 19:13:15,216 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 19:13:22,201 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 19:13:31,871 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:13:43,504 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:13:53,499 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:14:03,266 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:14:14,886 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:14:26,049 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:14:30,782 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:14:38,640 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:14:48,512 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:14:57,246 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:15:03,764 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:15:12,150 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:15:21,670 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:15:27,407 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:15:38,254 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:15:45,867 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:15:58,944 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:16:13,103 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:16:25,220 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:16:46,565 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:16:59,157 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:17:14,825 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:17:22,116 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:17:38,464 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:17:50,074 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:18:05,632 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:18:19,587 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:18:19,588 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 19:18:19,592 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 19:18:19,690 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 19:18:20,922 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 19:27:42,545 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 19:27:42,545 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 19:27:42,992 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 19:27:57,621 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 19:27:57,621 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 19:28:04,892 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 19:28:15,263 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:28:27,419 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:28:41,808 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:28:54,848 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:29:08,022 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:29:22,460 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:29:28,823 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:29:40,074 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:29:48,874 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:29:58,818 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:30:03,881 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:30:13,267 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:30:25,799 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:30:36,740 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:30:44,983 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:30:52,779 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:31:03,363 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:31:13,130 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:31:23,994 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:31:36,791 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:31:43,832 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:31:54,385 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:32:11,188 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:32:19,262 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:32:29,518 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:32:52,853 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:33:03,937 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:33:03,938 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 19:33:03,942 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 19:33:04,049 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 19:33:05,475 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 19:35:48,014 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 19:35:48,014 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 19:35:48,515 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 19:36:02,724 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 19:36:02,725 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 19:36:10,668 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 19:36:22,605 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:36:35,578 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:36:48,590 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:37:00,079 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:37:11,324 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:37:20,703 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:37:32,571 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:37:45,475 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:37:56,089 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:38:05,597 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:38:13,605 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:38:25,171 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:38:33,459 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:38:43,388 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:38:53,416 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:38:58,283 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:39:06,248 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:39:19,238 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:39:25,275 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:39:37,782 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:39:50,302 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:40:00,905 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:40:14,660 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:40:25,113 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:40:35,588 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:40:46,180 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:40:58,721 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:41:14,836 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:41:27,371 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:41:42,060 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:41:42,061 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 19:41:42,065 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 19:41:42,164 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 19:41:43,449 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 19:49:04,032 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 19:49:04,032 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 19:49:04,467 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 19:49:18,303 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 19:49:18,303 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 19:49:25,229 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 19:49:35,977 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:49:46,499 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:49:54,536 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:50:06,951 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:50:14,877 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:50:24,448 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:50:38,159 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:50:53,917 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:51:00,970 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:51:10,301 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:51:20,209 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:51:31,286 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:51:42,257 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:51:53,209 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:52:03,351 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:52:13,673 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:52:18,743 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:52:28,389 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:52:38,998 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:52:52,767 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:53:05,616 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:53:12,290 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:53:32,958 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:53:46,256 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:53:58,954 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:54:11,808 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:54:23,836 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:54:30,310 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:54:45,255 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:54:56,935 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:54:56,937 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 19:54:56,942 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 19:54:57,051 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 19:54:58,354 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 19:58:34,120 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 19:58:34,121 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 19:58:34,562 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 19:58:48,413 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 19:58:48,413 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 19:58:55,315 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 19:59:02,175 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:59:13,692 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:59:26,180 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:59:36,350 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:59:41,719 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 19:59:51,491 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:00:00,239 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:00:11,531 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:00:32,645 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:00:38,240 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:00:44,904 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:00:56,552 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:01:04,424 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:01:12,502 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:01:19,188 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:01:27,122 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:01:38,594 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:01:51,957 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:02:02,446 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:02:19,095 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:02:27,942 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:02:39,580 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:02:51,724 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:03:04,767 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:03:19,981 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:03:25,396 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:03:38,883 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:03:45,124 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:03:58,355 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:04:07,530 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 20:04:07,531 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 20:04:07,535 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 20:04:07,634 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 20:04:08,913 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 21:52:34,242 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 21:52:34,243 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 21:52:34,683 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 21:52:48,754 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 21:52:48,754 - utils.logger - INFO - 第四步：分析股票
+2026-05-13 21:52:55,582 - utils.logger - INFO - 第五步：AI增强分析
+2026-05-13 21:53:05,891 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:53:17,293 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:53:30,577 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:53:42,940 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:53:55,471 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:54:00,695 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:54:19,298 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:54:33,298 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:54:52,970 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:55:02,750 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:55:15,371 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:55:21,713 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:55:31,739 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:55:37,515 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:55:47,828 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:55:54,710 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:55:59,046 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:56:08,524 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:56:18,220 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:56:32,293 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:56:46,803 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:57:06,882 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:57:26,910 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:57:36,139 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:57:49,355 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:57:58,863 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:58:12,602 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:58:19,940 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:58:44,461 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:58:57,575 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 21:58:57,576 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 21:58:57,580 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 21:58:57,686 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 21:58:59,298 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 22:36:06,600 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 22:36:06,601 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 22:36:07,140 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 22:36:21,396 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 22:36:21,396 - utils.logger - INFO - 第四步：AI增强分析
+2026-05-13 22:36:30,927 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:36:45,062 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:36:55,785 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:37:02,310 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:37:08,490 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:37:25,073 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:37:37,644 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:37:45,883 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:38:01,578 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 22:38:01,580 - utils.logger - ERROR - 执行过程中发生错误: slice(None, 15, None)
+2026-05-13 23:08:41,219 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 23:08:41,219 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 23:08:41,690 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 23:08:55,820 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 23:08:55,820 - utils.logger - INFO - 第四步：AI增强分析
+2026-05-13 23:09:06,923 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:09:18,384 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:09:34,226 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:09:44,517 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:09:53,497 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:10:08,183 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:10:17,525 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:10:29,101 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:10:51,007 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:11:23,275 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:11:36,971 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:11:42,662 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:11:50,900 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:12:01,237 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:12:11,147 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:12:17,392 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:12:28,966 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:12:39,614 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:12:49,451 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:12:58,799 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:13:09,307 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:13:09,309 - utils.logger - INFO - 第五步：分析股票
+2026-05-13 23:13:16,454 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 23:13:16,458 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 23:13:16,560 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 23:13:17,892 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 23:15:24,140 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 23:15:24,140 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 23:15:24,685 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 23:15:38,783 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 23:15:38,784 - utils.logger - INFO - 第四步：AI增强分析
+2026-05-13 23:15:46,282 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:16:00,133 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:16:09,599 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:16:22,351 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:16:29,555 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:16:41,375 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:16:51,052 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:17:04,007 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:17:27,670 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:17:47,121 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:17:50,745 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:17:55,899 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:18:01,905 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:18:10,449 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:18:14,816 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:18:22,570 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:18:33,535 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:18:43,839 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:18:55,242 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:19:06,506 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:19:13,029 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:19:13,031 - utils.logger - INFO - 第五步：分析股票
+2026-05-13 23:19:20,242 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 23:19:20,246 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 23:19:20,362 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 23:19:21,679 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 23:30:09,789 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 23:30:09,789 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 23:30:10,343 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 23:30:24,302 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 23:30:24,302 - utils.logger - INFO - 第四步：AI增强分析
+2026-05-13 23:30:34,613 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:30:42,678 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:30:54,543 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:31:08,698 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:31:21,117 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:31:34,690 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:31:47,637 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:31:53,926 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:32:05,795 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:32:29,204 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:32:35,856 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:32:42,379 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:32:48,924 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:32:53,436 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:33:05,110 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:33:14,052 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:33:21,282 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:33:31,047 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:33:39,075 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:33:46,873 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:33:58,306 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:33:58,307 - utils.logger - INFO - 第五步：分析股票
+2026-05-13 23:34:04,402 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 23:34:04,406 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 23:34:04,515 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 23:34:05,795 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 23:38:13,833 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 23:38:13,834 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 23:38:14,311 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 23:38:28,688 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 23:38:28,688 - utils.logger - INFO - 第四步：AI增强分析
+2026-05-13 23:38:39,218 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:38:46,451 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:38:55,797 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:39:09,270 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:39:23,475 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:39:32,708 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:39:45,723 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:39:56,060 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:40:08,083 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:40:32,486 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:40:37,306 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:40:47,034 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:40:57,212 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:41:04,828 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:41:18,889 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:41:26,493 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:41:37,499 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:41:41,977 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:41:51,003 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:41:59,635 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:42:11,984 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:42:11,986 - utils.logger - INFO - 第五步：分析股票
+2026-05-13 23:42:18,923 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 23:42:18,927 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 23:42:19,036 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 23:42:20,264 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-13 23:52:15,833 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-13 23:52:15,834 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-13 23:52:16,259 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-13 23:52:30,208 - utils.logger - INFO - 第三步：处理数据
+2026-05-13 23:52:30,209 - utils.logger - INFO - 第四步：AI增强分析
+2026-05-13 23:52:40,104 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:52:51,282 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:52:57,426 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:53:14,413 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:53:23,478 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:53:34,280 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:53:43,120 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:53:50,364 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:54:00,799 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:54:20,628 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:54:42,614 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:55:03,628 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:55:11,925 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:55:22,107 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:55:27,698 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:55:36,617 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:55:47,791 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:56:02,577 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:56:13,191 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:56:17,306 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:56:25,028 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:56:35,088 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:56:45,092 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-13 23:56:45,093 - utils.logger - INFO - 第五步：分析股票
+2026-05-13 23:56:52,749 - utils.logger - INFO - 第六步：生成报告
+2026-05-13 23:56:52,753 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-13 23:56:52,866 - utils.logger - INFO - 第八步：发送邮件
+2026-05-13 23:56:54,476 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 00:10:02,191 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 00:10:02,191 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 00:10:02,645 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 00:10:16,583 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 00:10:16,583 - utils.logger - INFO - 第四步：AI增强分析
+2026-05-14 00:10:23,921 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:10:30,327 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:10:38,916 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:10:48,035 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:10:54,493 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:11:03,424 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:11:11,124 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:11:19,650 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:11:46,483 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:12:06,062 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:12:13,410 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:12:18,231 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:12:25,645 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:12:31,435 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:12:34,606 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:12:44,377 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:12:53,504 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:13:02,740 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:13:06,918 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:13:17,959 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:13:26,140 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:13:26,141 - utils.logger - INFO - 第五步：分析股票
+2026-05-14 00:13:33,225 - utils.logger - INFO - 第六步：生成报告
+2026-05-14 00:13:33,242 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-14 00:13:33,406 - utils.logger - INFO - 第八步：发送邮件
+2026-05-14 00:13:34,716 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 00:23:23,767 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 00:23:23,768 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 00:23:24,243 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 00:23:38,269 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 00:23:38,269 - utils.logger - INFO - 第四步：AI增强分析
+2026-05-14 00:23:48,836 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:23:52,765 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:24:02,438 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:24:15,422 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:24:21,477 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:24:29,784 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:24:36,530 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:24:44,565 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:25:11,132 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:25:31,854 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:25:40,934 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:25:50,332 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:25:58,753 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:26:07,679 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:26:18,513 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:26:22,665 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:26:27,143 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:26:31,847 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:26:41,282 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:26:47,001 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:26:55,830 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:26:55,832 - utils.logger - INFO - 第五步：分析股票
+2026-05-14 00:27:01,941 - utils.logger - INFO - 第六步：生成报告
+2026-05-14 00:27:01,945 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-14 00:27:02,063 - utils.logger - INFO - 第八步：发送邮件
+2026-05-14 00:27:03,415 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 00:30:35,595 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 00:30:35,596 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 00:30:36,048 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 00:30:50,140 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 00:30:50,140 - utils.logger - INFO - 第四步：AI增强分析
+2026-05-14 00:30:56,636 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:31:05,360 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:31:12,992 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:31:22,705 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:31:31,445 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:31:39,199 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:31:54,152 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:31:59,875 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:32:30,248 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:32:51,510 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:33:01,440 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:33:09,125 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:33:17,381 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:33:26,092 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:33:35,807 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:33:40,613 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:33:48,269 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:33:54,547 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:33:59,878 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:34:10,352 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:34:15,665 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:34:15,666 - utils.logger - INFO - 第五步：分析股票
+2026-05-14 00:34:22,468 - utils.logger - INFO - 第六步：生成报告
+2026-05-14 00:34:22,472 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-14 00:34:22,573 - utils.logger - INFO - 第八步：发送邮件
+2026-05-14 00:34:23,827 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 00:38:53,953 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 00:38:53,953 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 00:38:54,459 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 00:39:08,625 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 00:39:08,625 - utils.logger - INFO - 第四步：AI增强分析
+2026-05-14 00:39:16,257 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:39:22,967 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:39:33,037 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:39:42,927 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:39:50,150 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:39:57,780 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:40:08,738 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:40:16,540 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:40:36,070 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:40:54,617 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:40:58,595 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:41:02,817 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:41:08,158 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:41:14,041 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:41:20,868 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:41:29,053 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:41:37,417 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:41:44,094 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:41:51,561 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:41:58,497 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:42:11,638 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:42:11,639 - utils.logger - INFO - 第五步：分析股票
+2026-05-14 00:42:18,500 - utils.logger - INFO - 第六步：生成报告
+2026-05-14 00:42:18,504 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-14 00:42:18,606 - utils.logger - INFO - 第八步：发送邮件
+2026-05-14 00:42:20,125 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 00:45:25,313 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 00:45:25,313 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 00:45:25,734 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 00:45:40,906 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 00:45:40,906 - utils.logger - INFO - 第四步：AI增强分析
+2026-05-14 00:45:48,713 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:45:56,353 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:46:05,286 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:46:21,160 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:46:30,833 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:46:38,959 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:46:48,288 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:46:57,382 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:47:23,472 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:47:44,505 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:47:52,469 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:48:00,988 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:48:08,977 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:48:16,083 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:48:23,612 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:48:28,332 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:48:32,513 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:48:39,440 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 00:48:39,507 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 00:48:39,560 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 00:48:39,609 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 00:48:39,610 - utils.logger - INFO - 第五步：分析股票
+2026-05-14 00:48:46,558 - utils.logger - INFO - 第六步：生成报告
+2026-05-14 00:48:46,562 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-14 00:48:46,660 - utils.logger - INFO - 第八步：发送邮件
+2026-05-14 00:48:47,952 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 07:30:03,246 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 07:30:03,246 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 07:30:03,657 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 07:30:17,775 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 07:30:17,776 - utils.logger - INFO - 第四步：AI增强分析
+2026-05-14 07:30:19,246 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:19,389 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:19,438 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:19,523 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:19,575 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:19,629 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:19,699 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:19,743 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:19,797 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:19,847 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:19,897 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:19,972 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:20,025 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:20,079 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:20,151 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:20,218 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:20,263 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:20,311 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:20,870 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:21,441 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:21,517 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:30:21,520 - utils.logger - INFO - 第五步：分析股票
+2026-05-14 07:30:27,657 - utils.logger - INFO - 第六步：生成报告
+2026-05-14 07:30:27,662 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-14 07:30:27,765 - utils.logger - INFO - 第八步：发送邮件
+2026-05-14 07:30:29,080 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 07:44:10,855 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 07:44:10,857 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 07:44:11,287 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 07:44:25,332 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 07:44:25,332 - utils.logger - INFO - 第四步：AI增强分析
+2026-05-14 07:44:26,794 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:26,843 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:26,886 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:26,935 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:27,007 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:27,057 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:27,111 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:27,177 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:27,235 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:27,314 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:27,393 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:27,460 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:27,518 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:27,588 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:27,646 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:27,688 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:27,760 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:27,825 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:27,866 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:27,944 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:28,010 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 07:44:28,011 - utils.logger - INFO - 第五步：分析股票
+2026-05-14 07:44:34,917 - utils.logger - INFO - 第六步：生成报告
+2026-05-14 07:44:34,921 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-14 07:44:35,031 - utils.logger - INFO - 第八步：发送邮件
+2026-05-14 07:44:36,505 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 08:07:06,536 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 08:07:06,537 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 08:07:06,984 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 08:07:21,286 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 08:07:21,286 - utils.logger - INFO - 第四步：AI增强分析
+2026-05-14 08:07:22,744 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:22,822 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:22,881 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:22,961 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:23,019 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:23,093 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:23,139 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:23,196 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:23,265 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:23,315 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:23,389 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:23,463 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:23,527 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:23,577 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:23,653 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:23,729 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:23,789 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:23,871 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:23,944 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:24,013 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:24,088 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-05-14 08:07:24,089 - utils.logger - INFO - 第五步：分析股票
+2026-05-14 08:07:31,098 - utils.logger - INFO - 第六步：生成报告
+2026-05-14 08:07:31,102 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-14 08:07:31,201 - utils.logger - INFO - 第八步：发送邮件
+2026-05-14 08:07:32,357 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 10:28:05,241 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 10:28:05,241 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 10:28:05,711 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 10:28:28,853 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 10:28:28,854 - utils.logger - INFO - 第四步：AI增强分析
+2026-05-14 10:28:42,799 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:29:27,780 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:29:55,714 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:30:32,323 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:30:54,043 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:31:26,288 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:31:35,241 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:31:49,212 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:32:37,582 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:33:13,957 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:33:39,773 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:34:18,437 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:35:11,358 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:35:28,504 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:35:37,650 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:36:02,432 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:36:21,487 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:36:30,867 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:36:46,806 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:37:20,895 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:37:33,709 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:37:33,711 - utils.logger - INFO - 第五步：分析股票
+2026-05-14 10:37:43,189 - utils.logger - INFO - 第六步：生成报告
+2026-05-14 10:37:43,193 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-14 10:37:43,298 - utils.logger - INFO - 第八步：发送邮件
+2026-05-14 10:37:44,614 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 10:51:57,901 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 10:51:57,902 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 10:51:58,324 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 10:52:18,744 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 10:52:18,744 - utils.logger - INFO - 第四步：AI增强分析
+2026-05-14 10:52:39,205 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:53:08,923 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:53:47,460 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:54:18,174 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:54:34,915 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:54:49,296 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:55:02,162 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:55:25,156 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:56:29,007 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:57:13,554 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:57:26,962 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:57:52,195 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:57:58,473 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:58:32,090 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:58:43,242 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:58:53,152 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:59:06,899 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:59:31,859 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 10:59:54,754 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:00:07,438 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:00:37,940 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:00:37,941 - utils.logger - INFO - 第五步：分析股票
+2026-05-14 11:00:45,626 - utils.logger - INFO - 第六步：生成报告
+2026-05-14 11:00:45,630 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-14 11:00:45,732 - utils.logger - INFO - 第八步：发送邮件
+2026-05-14 11:00:47,280 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 11:03:25,769 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 11:03:25,769 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 11:03:26,465 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 11:03:43,918 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 11:03:43,918 - utils.logger - INFO - 第四步：AI增强分析
+2026-05-14 11:03:59,941 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:04:36,015 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:05:13,790 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:06:27,550 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:06:44,832 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:07:14,172 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:07:25,451 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:07:47,008 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:08:41,543 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:09:33,426 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:10:01,042 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:10:23,397 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:10:34,400 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:10:44,990 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:11:11,843 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:11:32,374 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:12:15,429 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:12:25,920 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:13:00,246 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:13:08,335 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:13:28,718 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:13:28,719 - utils.logger - INFO - 第五步：分析股票
+2026-05-14 11:13:34,804 - utils.logger - INFO - 第六步：生成报告
+2026-05-14 11:13:34,808 - utils.logger - INFO - 第七步：转换为PNG和PDF
+2026-05-14 11:13:34,913 - utils.logger - INFO - 第八步：发送邮件
+2026-05-14 11:13:36,486 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 11:50:13,216 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 11:50:13,216 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 11:50:13,676 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 11:50:48,246 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 11:50:48,246 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-14 11:52:05,488 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:52:05,506 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-14 11:53:59,410 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 11:53:59,413 - utils.logger - INFO - 第六步：分析股票
+2026-05-14 11:53:59,413 - utils.logger - INFO - 第七步：生成报告
+2026-05-14 11:53:59,418 - utils.logger - INFO - 第八步：转换为PNG和PDF
+2026-05-14 11:53:59,551 - utils.logger - INFO - 第九步：发送邮件
+2026-05-14 11:54:00,977 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 12:12:49,393 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 12:12:49,393 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 12:12:50,265 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 12:13:29,542 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 12:13:29,542 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-14 12:14:35,335 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:14:35,348 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-14 12:16:20,599 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:16:20,602 - utils.logger - INFO - 第六步：分析股票
+2026-05-14 12:16:20,602 - utils.logger - INFO - 第七步：生成报告
+2026-05-14 12:16:20,607 - utils.logger - INFO - 第八步：转换为PNG和PDF
+2026-05-14 12:16:20,725 - utils.logger - INFO - 第九步：发送邮件
+2026-05-14 12:16:21,983 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 12:32:17,067 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 12:32:17,069 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 12:32:17,656 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 12:32:31,719 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 12:32:31,719 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-14 12:34:00,601 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:34:00,621 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-14 12:35:02,437 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:35:02,439 - utils.logger - INFO - 第六步：分析股票
+2026-05-14 12:35:02,439 - utils.logger - INFO - 第七步：生成报告
+2026-05-14 12:35:02,443 - utils.logger - INFO - 第八步：转换为PNG和PDF
+2026-05-14 12:35:03,303 - utils.logger - INFO - 第九步：发送邮件
+2026-05-14 12:35:06,672 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 12:35:42,792 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 12:35:42,792 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 12:35:43,738 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 12:35:56,692 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 12:35:56,693 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-14 12:37:26,491 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:37:26,515 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-14 12:38:12,967 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:38:12,970 - utils.logger - INFO - 第六步：分析股票
+2026-05-14 12:38:12,970 - utils.logger - INFO - 第七步：生成报告
+2026-05-14 12:38:12,988 - utils.logger - INFO - 第八步：转换为PNG和PDF
+2026-05-14 12:38:13,814 - utils.logger - INFO - 第九步：发送邮件
+2026-05-14 12:38:16,670 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 12:38:37,636 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 12:38:37,637 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 12:38:38,467 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 12:38:52,194 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 12:38:52,196 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-14 12:45:59,916 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 12:45:59,917 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 12:46:00,887 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 12:46:14,533 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 12:46:14,533 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-14 12:47:27,327 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:47:27,385 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-14 12:48:58,078 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:48:58,079 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-14 12:49:11,270 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:49:32,881 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:49:51,648 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:50:27,274 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:50:43,137 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:51:35,851 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:51:49,261 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:52:30,153 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:52:45,915 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:53:22,278 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:53:22,290 - utils.logger - INFO - 第五步六：商品数据AI分析
+2026-05-14 12:53:22,299 - utils.logger - INFO - 第六步：分析股票
+2026-05-14 12:53:22,320 - utils.logger - INFO - 第七步：生成报告
+2026-05-14 12:53:22,382 - utils.logger - INFO - 第八步：转换为PNG和PDF
+2026-05-14 12:53:23,634 - utils.logger - INFO - 第九步：发送邮件
+2026-05-14 12:53:26,884 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 12:57:45,063 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 12:57:45,066 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 12:57:45,997 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 12:58:00,459 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 12:58:00,459 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-14 12:59:36,256 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 12:59:36,309 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-14 13:01:28,013 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:01:28,015 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-14 13:01:48,901 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:02:06,850 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:02:36,503 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:03:28,068 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:03:44,652 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:04:38,867 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:05:21,666 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:05:58,412 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:06:52,619 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:07:26,305 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:07:26,315 - utils.logger - INFO - 第五步六：商品数据AI分析
+2026-05-14 13:07:26,325 - utils.logger - INFO - 第六步：分析股票
+2026-05-14 13:07:26,358 - utils.logger - INFO - 第七步：生成报告
+2026-05-14 13:07:26,469 - utils.logger - INFO - 第八步：转换为PNG和PDF
+2026-05-14 13:07:28,585 - utils.logger - INFO - 第九步：发送邮件
+2026-05-14 13:07:31,397 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 13:08:27,422 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 13:08:27,422 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 13:08:28,268 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 13:08:42,245 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 13:08:42,245 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-14 13:10:24,542 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:10:24,566 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-14 13:11:57,112 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:11:57,114 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-14 13:12:18,238 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:13:11,358 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:13:25,130 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:13:49,668 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:14:09,380 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:14:45,766 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:15:20,670 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:15:42,947 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:15:58,366 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:16:11,829 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:16:11,831 - utils.logger - INFO - 第五步六：商品数据AI分析
+2026-05-14 13:16:11,831 - utils.logger - INFO - 第六步：分析股票
+2026-05-14 13:16:11,832 - utils.logger - INFO - 第七步：生成报告
+2026-05-14 13:16:11,837 - utils.logger - INFO - 第八步：转换为PNG和PDF
+2026-05-14 13:16:12,425 - utils.logger - INFO - 第九步：发送邮件
+2026-05-14 13:16:15,655 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 13:17:08,524 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 13:17:08,524 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 13:17:09,536 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 13:17:24,280 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 13:17:24,280 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-14 13:18:43,751 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:18:43,777 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-14 13:20:04,004 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:20:04,005 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-14 13:20:19,625 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:20:55,553 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:21:05,295 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:21:29,490 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:21:55,170 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:31:27,886 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 13:31:27,888 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 13:31:28,824 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 13:31:43,893 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 13:31:43,893 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-14 13:33:02,756 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:33:02,790 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-14 13:34:30,564 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:34:30,567 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-14 13:34:42,435 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:34:58,535 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:35:09,047 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:35:41,153 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:35:58,855 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:36:16,268 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:36:32,400 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:36:52,187 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:37:18,746 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:37:26,865 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:37:26,882 - utils.logger - INFO - 第五步六：商品数据AI分析
+2026-05-14 13:37:26,891 - utils.logger - INFO - 第六步：分析股票
+2026-05-14 13:37:26,946 - utils.logger - INFO - 第七步：生成报告
+2026-05-14 13:37:26,989 - utils.logger - INFO - 第八步：转换为PNG和PDF
+2026-05-14 13:37:28,301 - utils.logger - INFO - 第九步：发送邮件
+2026-05-14 13:37:31,661 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 13:41:34,317 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 13:41:34,318 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 13:41:45,313 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 13:42:02,376 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 13:42:02,376 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-14 13:43:17,491 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:43:17,518 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-14 13:44:46,802 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:44:46,804 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-14 13:45:11,193 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:45:28,512 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:45:41,548 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:46:38,048 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:47:01,231 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:47:11,626 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:47:26,384 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:47:48,524 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:48:13,753 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:48:41,889 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 13:48:41,893 - utils.logger - INFO - 第五步六：商品数据AI分析
+2026-05-14 13:48:41,898 - utils.logger - INFO - 第六步：分析股票
+2026-05-14 13:48:41,914 - utils.logger - INFO - 第七步：生成报告
+2026-05-14 13:48:41,929 - utils.logger - INFO - 第八步：转换为PNG和PDF
+2026-05-14 13:48:42,768 - utils.logger - INFO - 第九步：发送邮件
+2026-05-14 13:48:45,907 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 13:49:44,219 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 13:49:44,220 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 13:49:44,808 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 13:49:59,224 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 13:49:59,224 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-14 14:26:49,136 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 14:26:49,139 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 14:26:49,886 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 14:27:06,785 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 14:27:06,785 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-14 14:28:11,811 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:28:11,830 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-14 14:29:40,245 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:29:40,246 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-14 14:29:58,679 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:30:10,756 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:30:33,730 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:31:27,858 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:32:02,507 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:32:24,129 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:32:40,108 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:32:57,488 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:33:16,130 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:33:23,406 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:33:23,410 - utils.logger - INFO - 第五步六：商品数据AI分析
+2026-05-14 14:33:23,410 - utils.logger - INFO - 第六步：分析股票
+2026-05-14 14:33:23,426 - utils.logger - INFO - 第七步：生成报告
+2026-05-14 14:33:23,445 - utils.logger - INFO - 第八步：转换为PNG和PDF
+2026-05-14 14:33:24,496 - utils.logger - INFO - 第九步：发送邮件
+2026-05-14 14:33:27,459 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 14:50:15,466 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 14:50:15,468 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 14:50:16,178 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 14:50:43,927 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 14:50:43,928 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-14 14:51:18,939 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:51:18,969 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-14 14:53:14,213 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:53:14,216 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-14 14:53:42,342 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:54:11,264 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:54:35,008 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:54:58,747 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:55:39,150 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:55:52,934 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:56:39,615 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:57:10,807 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:57:29,862 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:57:54,769 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 14:57:54,770 - utils.logger - INFO - 第五步六：商品数据AI分析
+2026-05-14 14:57:54,770 - utils.logger - INFO - 第六步：分析股票
+2026-05-14 14:57:54,770 - utils.logger - INFO - 第七步：生成报告
+2026-05-14 14:57:54,786 - utils.logger - INFO - 第八步：转换为PNG和PDF
+2026-05-14 14:57:55,332 - utils.logger - INFO - 第九步：发送邮件
+2026-05-14 14:57:58,172 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 15:40:51,576 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 15:40:51,578 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 15:40:52,390 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 15:41:27,897 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 15:41:27,898 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-14 15:42:51,549 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 15:42:51,589 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-14 15:44:30,275 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 15:44:30,277 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-14 15:44:49,918 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 15:44:59,019 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 15:45:28,633 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 15:45:42,363 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 15:45:53,219 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 15:46:04,953 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 15:46:37,412 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 15:46:50,953 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 15:47:02,715 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 15:47:13,703 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 15:47:13,705 - utils.logger - INFO - 第五步六：商品数据AI分析
+2026-05-14 15:47:13,705 - utils.logger - INFO - 第六步：分析股票
+2026-05-14 15:47:13,705 - utils.logger - INFO - 第七步：生成报告
+2026-05-14 15:47:13,721 - utils.logger - INFO - 第八步：转换为PNG和PDF
+2026-05-14 15:47:14,285 - utils.logger - INFO - 第九步：发送邮件
+2026-05-14 15:47:17,147 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 16:30:03,287 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 16:30:03,289 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 16:30:04,108 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 16:31:10,993 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 16:31:10,993 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-14 16:31:59,668 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 16:31:59,722 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-14 16:32:01,673 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-14 16:32:01,673 - utils.logger - INFO - 第五步六：商品数据AI分析
+2026-05-14 16:32:01,673 - utils.logger - INFO - 第六步：分析股票
+2026-05-14 16:32:01,674 - utils.logger - INFO - 第七步：生成报告
+2026-05-14 16:32:01,678 - utils.logger - INFO - 第八步：转换为PNG和PDF
+2026-05-14 16:32:02,194 - utils.logger - INFO - 第九步：发送邮件
+2026-05-14 16:32:04,989 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 17:15:19,964 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 17:15:19,967 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 17:15:20,746 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 17:16:30,519 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 17:16:30,519 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-14 17:17:47,702 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:17:47,728 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-14 17:19:46,700 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:19:46,705 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-14 17:20:15,485 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:20:31,704 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:20:56,066 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:21:26,640 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:21:47,347 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:21:58,380 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:22:18,018 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:23:37,016 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:23:53,133 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:24:38,554 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:24:38,556 - utils.logger - INFO - 第五步六：商品数据AI分析
+2026-05-14 17:24:38,556 - utils.logger - INFO - 第六步：分析股票
+2026-05-14 17:24:38,559 - utils.logger - INFO - 第七步：生成报告
+2026-05-14 17:24:38,565 - utils.logger - INFO - 第八步：转换为PNG和PDF
+2026-05-14 17:24:39,117 - utils.logger - INFO - 第九步：发送邮件
+2026-05-14 17:24:42,179 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 17:27:15,713 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 17:27:15,713 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 17:27:16,502 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 17:28:14,263 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 17:28:14,263 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-14 17:29:09,354 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:29:09,379 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-14 17:31:03,376 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:31:03,379 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-14 17:31:28,849 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:31:42,953 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:32:02,952 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:32:26,829 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:33:16,725 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:33:33,110 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:33:46,254 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:35:11,159 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:35:40,942 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:35:57,800 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 17:35:57,803 - utils.logger - INFO - 第五步六：商品数据AI分析
+2026-05-14 17:35:57,821 - utils.logger - INFO - 第六步：分析股票
+2026-05-14 17:35:57,834 - utils.logger - INFO - 第七步：生成报告
+2026-05-14 17:35:57,849 - utils.logger - INFO - 第八步：转换为PNG和PDF
+2026-05-14 17:35:58,387 - utils.logger - INFO - 第九步：发送邮件
+2026-05-14 17:36:01,379 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-14 17:41:59,545 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-14 17:41:59,547 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-14 17:42:00,364 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-14 17:43:12,224 - utils.logger - INFO - 第三步：处理数据
+2026-05-14 17:43:12,224 - utils.logger - INFO - 第四步：AI新闻筛选分析

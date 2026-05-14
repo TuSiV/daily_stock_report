@@ -20,19 +20,33 @@
 
 {geopolitics_items}
 
+**影响分析：** {geopolitics_summary}
+
+### 宏观经济事件
+
+{macro_economy_items}
+
+**影响分析：** {macro_economy_summary}
+
+### 政府政策变化
+
+{government_policy_items}
+
+**影响分析：** {government_policy_summary}
+
 ### 大宗商品
 
 | 品种 | 最新价格 | 涨跌幅 |
 |------|---------|--------|
-| 现货黄金 | {gold_price} | {gold_pct} |
-| WTI原油 | {wti_price} | {wti_pct} |
-| 布伦特原油 | {brent_price} | {brent_pct} |
+| 现货黄金 | {gold_price} | {gold_pct}% |
+| WTI原油 | {wti_price} | {wti_pct}% |
+| 布伦特原油 | {brent_price} | {brent_pct}% |
 
 **要点：** {commodity_summary}
 
 ---
 
-## 二、A股市场复盘（{date}）
+## 二、A股市场复盘（{last_trading_date}）
 
 ### 三大指数表现
 

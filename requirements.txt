@@ -5,3 +5,11 @@ markdown
 weasyprint
 pdf2image
 Pillow
+openai
+python-dotenv
+reportlab
+baostock
+akshare
+efinance
+finnhub-python
+yfinance

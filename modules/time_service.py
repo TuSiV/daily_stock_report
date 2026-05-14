@@ -12,23 +12,26 @@ class TimeService:
         self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
 
     def get_time_info(self):
-        now = self._get_ntsc_time()
-        yesterday = now - timedelta(days=1)
-        is_trading = self._is_a_stock_trading_day(now)
-        last_trading = self._get_last_trading_day(now) if not is_trading else now
+        # 使用系统当前时间作为报告日期
+        system_now = datetime.now()
+        # 获取市场时间（用于数据获取）
+        market_now = self._get_ntsc_time()
+        yesterday = system_now - timedelta(days=1)
+        is_trading = self._is_a_stock_trading_day(market_now)
+        last_trading = self._get_last_trading_day(market_now) if not is_trading else market_now
         return {
-            'date': now.strftime('%Y-%m-%d'),
-            'date_cn': f'{now.year}year{now.month}month{now.day}day',
-            'weekday': self.WEEKDAYS[now.weekday()],
-            'weekday_cn': self.WEEKDAYS_CN[now.weekday()],
-            'year': now.year,
-            'month': now.month,
-            'day': now.day,
+            'date': system_now.strftime('%Y-%m-%d'),  # 报告日期用今天
+            'date_cn': f'{system_now.year}year{system_now.month}month{system_now.day}day',
+            'weekday': self.WEEKDAYS[system_now.weekday()],
+            'weekday_cn': self.WEEKDAYS_CN[system_now.weekday()],
+            'year': system_now.year,
+            'month': system_now.month,
+            'day': system_now.day,
             'is_trading_day': is_trading,
-            'last_trading_date': last_trading.strftime('%Y-%m-%d'),
+            'last_trading_date': last_trading.strftime('%Y-%m-%d'),  # 数据获取用交易日
             'yesterday': yesterday.strftime('%Y-%m-%d'),
-            'search_date': f'{now.year}year{now.month}month{now.day}day',
-            'timestamp': now.strftime('%Y-%m-%d %H:%M:%S')
+            'search_date': f'{system_now.year}year{system_now.month}month{system_now.day}day',
+            'timestamp': system_now.strftime('%Y-%m-%d %H:%M:%S')
         }
 
     def _get_ntsc_time(self):
@@ -85,9 +88,10 @@ class TimeService:
     def _is_a_stock_trading_day(self, dt):
         if dt.weekday() >= 5:
             return False
-        from config.settings import A_STOCK_HOLIDAYS_2026
+        from config.settings import get_holidays
         date_str = dt.strftime('%Y-%m-%d')
-        return date_str not in A_STOCK_HOLIDAYS_2026
+        holidays = get_holidays(dt.year)
+        return date_str not in holidays
 
     def _get_last_trading_day(self, dt):
         d = dt - timedelta(days=1)
