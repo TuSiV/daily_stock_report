@@ -1572,3 +1572,500 @@
 2026-05-14 17:42:00,364 - utils.logger - INFO - 第二步：获取市场数据
 2026-05-14 17:43:12,224 - utils.logger - INFO - 第三步：处理数据
 2026-05-14 17:43:12,224 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-15 11:16:16,704 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-15 11:16:16,706 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-15 11:16:17,552 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-15 11:16:41,719 - utils.logger - INFO - 第三步：处理数据
+2026-05-15 11:16:41,721 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-15 11:18:05,779 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 11:18:05,805 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-15 11:18:09,069 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-15 11:18:43,031 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 11:19:25,931 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 11:20:27,159 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 11:21:06,159 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 11:21:33,518 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 11:21:55,626 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 11:22:08,579 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 11:23:02,848 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 11:23:30,611 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 11:23:44,849 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 11:23:44,852 - utils.logger - INFO - 第五步六：美股和商品AI分析
+2026-05-15 11:24:04,169 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 11:25:04,604 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 11:26:40,254 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 11:28:07,575 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 11:28:40,233 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 11:28:40,253 - utils.logger - INFO - 第六步：分析股票
+2026-05-15 11:28:40,270 - utils.logger - INFO - 第七步：生成报告
+2026-05-15 11:28:40,333 - utils.logger - INFO - 第八步：转换为PNG和PDF
+2026-05-15 11:28:42,071 - utils.logger - INFO - 第九步：发送邮件
+2026-05-15 11:28:45,175 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-15 13:24:06,880 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-15 13:24:06,883 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-15 13:24:07,747 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-15 13:24:59,834 - utils.logger - INFO - 第三步：处理数据
+2026-05-15 13:24:59,835 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-15 13:26:15,034 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:26:15,074 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-15 13:28:38,002 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:28:38,004 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-15 13:28:58,040 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:29:30,929 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:29:47,556 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:30:25,931 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:31:04,097 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:31:35,453 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:32:35,964 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:33:34,919 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:34:04,811 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:34:51,262 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-15 13:34:51,262 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-15 13:34:51,899 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-15 13:35:39,428 - utils.logger - INFO - 第三步：处理数据
+2026-05-15 13:35:39,442 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-15 13:35:45,990 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:36:11,627 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-15 13:37:06,131 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:37:34,105 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-15 13:37:36,418 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:37:44,351 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:38:50,688 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:38:53,706 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:38:58,085 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:39:47,911 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:39:56,622 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:40:12,702 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:40:15,567 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:40:37,072 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:40:55,699 - utils.logger - INFO - 第五步六：美股和商品AI分析
+2026-05-15 13:40:57,875 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:41:01,315 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:41:56,291 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:41:59,208 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:42:03,102 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:42:04,031 - utils.logger - INFO - 第六步：分析股票
+2026-05-15 13:42:04,083 - utils.logger - INFO - 第七步：生成报告
+2026-05-15 13:42:04,120 - utils.logger - INFO - 第八步：转换为PDF
+2026-05-15 13:42:07,378 - utils.logger - INFO - 第九步：发送邮件
+2026-05-15 13:42:10,471 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-15 13:43:14,567 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-15 13:43:14,567 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-15 13:43:15,434 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-15 13:43:43,431 - utils.logger - INFO - 第三步：处理数据
+2026-05-15 13:43:43,432 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-15 13:43:47,249 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:44:05,593 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-15 13:44:56,507 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:45:49,210 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-15 13:45:51,090 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:45:53,569 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:45:56,826 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:46:05,677 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:46:08,647 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:46:15,574 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:46:18,871 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:46:23,181 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:46:26,326 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:46:42,584 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:46:50,755 - utils.logger - INFO - 第五步六：美股和商品AI分析
+2026-05-15 13:46:52,644 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:47:55,319 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:47:58,252 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:48:54,921 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:49:05,526 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 13:49:55,216 - utils.logger - INFO - 第六步：分析股票
+2026-05-15 13:49:55,258 - utils.logger - INFO - 第七步：生成报告
+2026-05-15 13:49:55,287 - utils.logger - INFO - 第八步：转换为PDF
+2026-05-15 13:49:56,617 - utils.logger - INFO - 第九步：发送邮件
+2026-05-15 13:49:59,652 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-15 13:50:35,792 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-15 13:50:35,792 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-15 13:50:36,583 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-15 13:51:14,563 - utils.logger - INFO - 第三步：处理数据
+2026-05-15 13:51:14,563 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-15 13:51:16,454 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-15 13:51:16,458 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-15 13:52:06,920 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-15 13:52:06,921 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-15 13:52:07,270 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-15 13:52:07,623 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-15 13:52:07,978 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-15 13:52:08,351 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-15 13:52:09,687 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-15 13:52:10,050 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-15 13:52:10,401 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-15 13:52:10,757 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-15 13:52:11,116 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-15 13:52:11,481 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-15 13:52:11,483 - utils.logger - INFO - 第五步六：美股和商品AI分析
+2026-05-15 13:52:12,101 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-15 13:52:12,464 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-15 13:52:12,837 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-15 13:52:13,202 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-15 13:52:13,550 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-15 13:52:13,551 - utils.logger - INFO - 第六步：分析股票
+2026-05-15 13:52:13,551 - utils.logger - INFO - 第七步：生成报告
+2026-05-15 13:52:13,554 - utils.logger - INFO - 第八步：转换为PDF
+2026-05-15 13:52:13,951 - utils.logger - INFO - 第九步：发送邮件
+2026-05-15 13:52:16,820 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-15 14:05:19,889 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-15 14:05:19,891 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-15 14:05:20,451 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-15 14:06:07,204 - utils.logger - INFO - 第三步：处理数据
+2026-05-15 14:06:07,204 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-15 14:06:09,800 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:06:40,674 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-15 14:07:26,926 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:07:58,415 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-15 14:07:59,407 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:08:06,776 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:08:10,059 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:08:14,451 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:08:18,032 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:08:25,088 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:08:28,062 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:08:32,896 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:08:36,085 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:08:39,544 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:08:41,502 - utils.logger - INFO - 第五步六：美股和商品AI分析
+2026-05-15 14:08:44,510 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:08:53,085 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:09:05,060 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:09:07,240 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:09:10,867 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:09:13,918 - utils.logger - INFO - 第六步：分析股票
+2026-05-15 14:09:13,918 - utils.logger - INFO - 第七步：生成报告
+2026-05-15 14:09:13,923 - utils.logger - INFO - 第八步：转换为PDF
+2026-05-15 14:09:14,476 - utils.logger - INFO - 第九步：发送邮件
+2026-05-15 14:09:17,864 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-15 14:14:44,263 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-15 14:14:44,266 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-15 14:14:46,200 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-15 14:15:26,481 - utils.logger - INFO - 第三步：处理数据
+2026-05-15 14:15:26,481 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-15 14:15:28,960 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:15:52,856 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-15 14:16:38,305 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:17:12,598 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-15 14:17:13,667 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:17:16,755 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:17:19,295 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:17:22,494 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:17:25,580 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:17:28,718 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:17:31,848 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:17:35,291 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:17:37,897 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:17:44,392 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:18:00,077 - utils.logger - INFO - 第五步六：美股和商品AI分析
+2026-05-15 14:18:03,014 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:18:15,307 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:18:18,115 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:18:20,602 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:18:23,367 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:18:32,712 - utils.logger - INFO - 第六步：分析股票
+2026-05-15 14:18:32,713 - utils.logger - INFO - 第七步：生成报告
+2026-05-15 14:18:32,716 - utils.logger - INFO - 第八步：转换为PDF
+2026-05-15 14:18:33,215 - utils.logger - INFO - 第九步：发送邮件
+2026-05-15 14:18:36,227 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-15 14:27:34,087 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-15 14:27:34,087 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-15 14:27:34,833 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-15 14:27:59,756 - utils.logger - INFO - 第三步：处理数据
+2026-05-15 14:27:59,756 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-15 14:28:02,975 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:28:35,183 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-15 14:29:39,167 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:30:18,051 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-15 14:30:19,110 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:30:21,844 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:30:26,372 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:30:29,464 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:30:34,074 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:30:37,412 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:30:40,422 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:30:44,460 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:30:52,125 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:30:55,206 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:30:57,260 - utils.logger - INFO - 第五步六：美股和商品AI分析
+2026-05-15 14:30:58,339 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:31:03,065 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:31:18,282 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:31:23,012 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:31:27,348 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:31:34,072 - utils.logger - INFO - 第六步：分析股票
+2026-05-15 14:31:34,073 - utils.logger - INFO - 第七步：生成报告
+2026-05-15 14:31:34,086 - utils.logger - INFO - 第八步：转换为PDF
+2026-05-15 14:31:34,696 - utils.logger - INFO - 第九步：发送邮件
+2026-05-15 14:31:37,977 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-15 14:40:12,465 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-15 14:40:12,466 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-15 14:40:13,205 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-15 14:41:27,895 - utils.logger - INFO - 第三步：处理数据
+2026-05-15 14:41:27,896 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-15 14:41:30,495 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:42:19,600 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-15 14:45:38,441 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:46:01,809 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-15 14:46:03,030 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:46:07,498 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:46:11,084 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:46:14,335 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:46:17,055 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:46:22,811 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:46:26,189 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:46:32,699 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:46:35,505 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:46:38,511 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:46:40,234 - utils.logger - INFO - 第五步六：美股和商品AI分析
+2026-05-15 14:46:44,448 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:46:48,432 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:46:59,055 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:47:03,819 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:47:06,259 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 14:47:09,877 - utils.logger - INFO - 第六步：分析股票
+2026-05-15 14:47:09,878 - utils.logger - INFO - 第七步：生成报告
+2026-05-15 14:47:09,894 - utils.logger - INFO - 第八步：转换为PDF
+2026-05-15 14:47:10,486 - utils.logger - INFO - 第九步：发送邮件
+2026-05-15 14:47:13,378 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-15 15:41:59,985 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-15 15:41:59,985 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-15 15:42:00,495 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-15 15:42:18,888 - utils.logger - INFO - 第三步：处理数据
+2026-05-15 15:42:18,889 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-15 15:42:21,561 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:42:47,196 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-15 15:44:48,250 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:45:12,869 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-15 15:45:13,944 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:45:16,719 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:45:19,154 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:45:25,011 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:45:27,733 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:45:33,112 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:45:54,099 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:45:58,485 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:46:04,270 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:46:08,105 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:46:10,247 - utils.logger - INFO - 第五步六：美股和商品AI分析
+2026-05-15 15:46:11,241 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:46:13,975 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:46:16,293 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:46:18,493 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:46:25,193 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:46:28,533 - utils.logger - INFO - 第六步：分析股票
+2026-05-15 15:46:28,533 - utils.logger - INFO - 第七步：生成报告
+2026-05-15 15:46:28,553 - utils.logger - INFO - 第八步：转换为PDF
+2026-05-15 15:46:29,119 - utils.logger - INFO - 第九步：发送邮件
+2026-05-15 15:46:32,037 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-15 15:56:18,993 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-15 15:56:18,994 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-15 15:56:19,801 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-15 15:56:36,572 - utils.logger - INFO - 第三步：处理数据
+2026-05-15 15:56:36,573 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-15 15:56:39,544 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:57:07,158 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-15 15:57:27,793 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:58:08,807 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-15 15:58:09,846 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:58:13,648 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:58:16,452 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:58:19,587 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:58:23,634 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:58:26,266 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:58:29,785 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:58:32,615 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:58:35,530 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:58:37,968 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:58:43,658 - utils.logger - INFO - 第五步六：美股和商品AI分析
+2026-05-15 15:58:44,746 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:58:52,272 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:58:56,395 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:58:59,545 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:59:03,673 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 15:59:08,914 - utils.logger - INFO - 第六步：分析股票
+2026-05-15 15:59:08,917 - utils.logger - INFO - 第七步：生成报告
+2026-05-15 15:59:08,921 - utils.logger - INFO - 第八步：转换为PDF
+2026-05-15 15:59:09,001 - utils.logger - INFO - 第九步：发送邮件
+2026-05-15 15:59:10,328 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-15 16:01:20,724 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-15 16:01:20,725 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-15 16:01:21,551 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-15 16:01:37,634 - utils.logger - INFO - 第三步：处理数据
+2026-05-15 16:01:37,634 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-15 16:01:40,777 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:02:08,443 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-15 16:02:35,351 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:03:12,190 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-15 16:03:13,189 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:03:18,447 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:03:23,113 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:03:26,208 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:03:29,030 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:03:33,183 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:03:35,734 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:03:39,305 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:03:43,675 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:03:54,568 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:03:56,903 - utils.logger - INFO - 第五步六：美股和商品AI分析
+2026-05-15 16:03:57,984 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:04:03,578 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:04:06,632 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:04:09,966 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:04:13,591 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:04:25,452 - utils.logger - INFO - 第六步：分析股票
+2026-05-15 16:04:25,455 - utils.logger - INFO - 第七步：生成报告
+2026-05-15 16:04:25,459 - utils.logger - INFO - 第八步：转换为PDF
+2026-05-15 16:04:25,538 - utils.logger - INFO - 第九步：发送邮件
+2026-05-15 16:04:27,000 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-15 16:43:26,143 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-15 16:43:26,144 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-15 16:43:26,918 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-15 16:43:42,487 - utils.logger - INFO - 第三步：处理数据
+2026-05-15 16:43:42,487 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-15 16:43:45,636 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:44:14,326 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-15 16:44:34,820 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:45:08,112 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-15 16:45:12,345 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:45:28,276 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:45:33,760 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:45:42,344 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:45:46,991 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:45:49,760 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:45:54,529 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:45:57,380 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:46:00,310 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:46:03,475 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:46:13,367 - utils.logger - INFO - 第五步六：美股和商品AI分析
+2026-05-15 16:46:14,713 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:46:17,161 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:46:19,567 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:46:22,145 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:46:24,975 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 16:46:27,644 - utils.logger - INFO - 第六步：分析股票
+2026-05-15 16:46:27,648 - utils.logger - INFO - 第七步：生成报告
+2026-05-15 16:46:27,652 - utils.logger - INFO - 第八步：转换为PDF
+2026-05-15 16:46:27,729 - utils.logger - INFO - 第九步：发送邮件
+2026-05-15 16:46:29,009 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-15 17:05:12,143 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-15 17:05:12,143 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-15 17:05:13,011 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-15 17:05:28,541 - utils.logger - INFO - 第三步：处理数据
+2026-05-15 17:05:28,542 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-15 17:05:33,405 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:06:20,876 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-15 17:06:41,742 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:07:21,831 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-15 17:07:23,044 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:07:26,385 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:07:32,128 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:07:41,993 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:07:43,701 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:07:47,464 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:07:51,788 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:07:56,700 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:08:02,263 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:08:06,644 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:08:12,015 - utils.logger - INFO - 第五步六：美股和商品AI分析
+2026-05-15 17:08:13,462 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:08:16,717 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:08:19,424 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:08:23,707 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:08:49,773 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:08:52,627 - utils.logger - INFO - 第六步：分析股票
+2026-05-15 17:08:52,627 - utils.logger - INFO - 第七步：生成报告
+2026-05-15 17:08:52,631 - utils.logger - INFO - 第八步：转换为PDF
+2026-05-15 17:08:52,705 - utils.logger - INFO - 第九步：发送邮件
+2026-05-15 17:08:54,049 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-15 17:16:25,716 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-15 17:16:25,717 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-15 17:16:26,536 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-15 17:16:42,211 - utils.logger - INFO - 第三步：处理数据
+2026-05-15 17:16:42,211 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-15 17:16:45,352 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:17:13,769 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-15 17:17:34,624 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:18:11,654 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-15 17:18:13,314 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:18:16,850 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:18:19,659 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:18:24,704 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:18:27,908 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:18:31,292 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:18:35,990 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:18:43,098 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:18:46,597 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:18:52,144 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:18:54,734 - utils.logger - INFO - 第五步六：美股和商品AI分析
+2026-05-15 17:18:55,811 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:19:02,293 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:19:05,221 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:19:13,096 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:19:16,011 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:19:18,558 - utils.logger - INFO - 第六步：分析股票
+2026-05-15 17:19:18,559 - utils.logger - INFO - 第七步：生成报告
+2026-05-15 17:19:18,562 - utils.logger - INFO - 第八步：转换为PDF
+2026-05-15 17:19:18,638 - utils.logger - INFO - 第九步：发送邮件
+2026-05-15 17:19:19,950 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-15 17:27:04,013 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-15 17:27:04,014 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-15 17:27:04,826 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-15 17:27:20,077 - utils.logger - INFO - 第三步：处理数据
+2026-05-15 17:27:20,078 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-15 17:27:23,185 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:27:49,834 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-15 17:28:10,237 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:28:38,857 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-15 17:28:42,343 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:28:49,325 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:28:52,782 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:28:56,876 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:29:02,325 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:29:08,918 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:29:20,850 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:29:24,181 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:29:28,132 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:29:31,586 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:29:33,622 - utils.logger - INFO - 第五步六：美股和商品AI分析
+2026-05-15 17:29:34,603 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:29:37,704 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:29:43,760 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:29:46,643 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:29:53,671 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:29:59,719 - utils.logger - INFO - 第六步：分析股票
+2026-05-15 17:29:59,720 - utils.logger - INFO - 第七步：生成报告
+2026-05-15 17:29:59,724 - utils.logger - INFO - 第八步：转换为PDF
+2026-05-15 17:29:59,797 - utils.logger - INFO - 第九步：发送邮件
+2026-05-15 17:30:01,137 - utils.logger - INFO - 每日选股分析任务完成
+2026-05-15 17:31:38,787 - utils.logger - INFO - 开始执行每日选股分析任务
+2026-05-15 17:31:38,787 - utils.logger - INFO - 第一步：获取权威时间
+2026-05-15 17:31:39,620 - utils.logger - INFO - 第二步：获取市场数据
+2026-05-15 17:31:54,226 - utils.logger - INFO - 第三步：处理数据
+2026-05-15 17:31:54,227 - utils.logger - INFO - 第四步：AI新闻筛选分析
+2026-05-15 17:31:57,446 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:32:28,810 - utils.logger - INFO - 第五步：基于缠论理论的AI选股
+2026-05-15 17:32:49,905 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:33:09,196 - utils.logger - INFO - 第五步半：板块驱动因素AI分析
+2026-05-15 17:33:13,458 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:33:16,643 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:33:20,625 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:33:23,229 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:33:29,813 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:33:33,576 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:33:36,333 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:33:42,501 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:34:13,386 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:34:16,087 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:34:18,381 - utils.logger - INFO - 第五步六：美股和商品AI分析
+2026-05-15 17:34:19,595 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:34:23,116 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:34:26,113 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:34:29,243 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:34:34,481 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-15 17:34:37,596 - utils.logger - INFO - 第六步：分析股票
+2026-05-15 17:34:37,597 - utils.logger - INFO - 第七步：生成报告
+2026-05-15 17:34:37,601 - utils.logger - INFO - 第八步：转换为PDF
+2026-05-15 17:34:37,673 - utils.logger - INFO - 第九步：发送邮件
+2026-05-15 17:34:39,170 - utils.logger - INFO - 每日选股分析任务完成

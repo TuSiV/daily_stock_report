@@ -751,33 +751,38 @@ class DataFetcher:
         if not codes:
             return names
 
-        # 1. 优先尝试东方财富
+        # 1. 优先尝试腾讯行情API（稳定可靠）
         try:
-            secids = []
+            qq_codes = []
             for code in codes:
                 if code.startswith('6'):
-                    secids.append(f'1.{code}')
+                    qq_codes.append(f'sh{code}')
                 else:
-                    secids.append(f'0.{code}')
+                    qq_codes.append(f'sz{code}')
 
             batch_size = 50
-            for i in range(0, len(secids), batch_size):
-                batch = secids[i:i+batch_size]
-                secids_str = ','.join(batch)
-                url = f'https://push2.eastmoney.com/api/qt/ulist/get?secids={secids_str}&fields=f12,f14'
+            for i in range(0, len(qq_codes), batch_size):
+                batch = qq_codes[i:i+batch_size]
+                codes_str = ','.join(batch)
+                url = f'https://qt.gtimg.cn/q={codes_str}'
                 resp = self._safe_get(url)
                 if resp:
-                    data = resp.json()
-                    if data.get('data') and data['data'].get('diff'):
-                        for item in data['data']['diff']:
-                            code = item.get('f12', '')
-                            name = item.get('f14', '')
-                            if code and name:
-                                names[code] = name
+                    # 腾讯API返回GBK编码
+                    resp.encoding = 'gbk'
+                    content = resp.text
+                    for line in content.split('\n'):
+                        if '=' in line and '~' in line:
+                            parts = line.split('~')
+                            if len(parts) >= 3:
+                                code = parts[2]
+                                name = parts[1]
+                                if code and name:
+                                    names[code] = name
+            print(f'QQ stock names: got {len(names)} names')
         except Exception as e:
-            print(f'Batch get stock names error: {e}')
+            print(f'QQ stock names error: {e}')
 
-        # 2. 如果东方财富失败或结果不全，用baostock补充
+        # 2. 如果腾讯失败或结果不全，用baostock补充
         missing = [c for c in codes if c not in names]
         if missing and HAS_BAOSTOCK:
             try:
