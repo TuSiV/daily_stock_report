@@ -62,33 +62,42 @@ class ChanAnalyzer:
         # 根据股票代码判断市场
         if code.startswith("6"):
             secid = f"1.{code}"
+            qq_code = f"sh{code}"
         elif code.startswith("0") or code.startswith("3"):
             secid = f"0.{code}"
+            qq_code = f"sz{code}"
         elif code.startswith("8") or code.startswith("4"):
             secid = f"0.{code}"
+            qq_code = f"sz{code}"
         else:
             secid = f"0.{code}"
-        
+            qq_code = f"sz{code}"
+
         klt_map = {"daily": 101, "60min": 60, "15min": 15, "30min": 30, "weekly": 102}
         klt = klt_map.get(period, 101)
-        
-        # 1. 优先尝试东方财富API
-        klines = self._get_klines_eastmoney(secid, klt, count)
-        if klines:
-            return klines
-        
-        # 2. 如果东方财富失败，尝试新浪财经备用API
-        print(f"Eastmoney K-line failed for {code}, trying Sina fallback...")
+
+        # 1. 优先尝试腾讯财经API（日线稳定）
+        if period == "daily":
+            klines = self._get_klines_tencent(qq_code, period, count)
+            if klines:
+                return klines
+
+        # 2. 如果腾讯失败或非日线，尝试新浪财经
         klines = self._get_klines_sina(code, period, count)
         if klines:
             return klines
-        
-        # 3. 如果新浪也失败，尝试腾讯财经备用API
-        print(f"Sina K-line failed for {code}, trying Tencent fallback...")
-        klines = self._get_klines_tencent(code, period, count)
+
+        # 3. 如果新浪失败，尝试东方财富API
+        klines = self._get_klines_eastmoney(secid, klt, count)
         if klines:
             return klines
-        
+
+        # 4. 如果东方财富也失败，尝试腾讯分钟线
+        if period != "daily":
+            klines = self._get_klines_tencent(qq_code, period, count)
+            if klines:
+                return klines
+
         print(f"All K-line sources failed for {code}")
         return []
     
