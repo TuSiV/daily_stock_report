@@ -87,11 +87,36 @@ class StockAnalyzer:
         if len(candidates) < NUM_STOCKS_TO_SELECT:
             # 按成交额排序的热门股票
             sorted_hot = sorted(hot_stocks, key=lambda x: x.get('amount', 0), reverse=True)
-            
+
             for item in sorted_hot:
                 code = item.get('code', '')
                 if code not in selected_codes and len(candidates) < NUM_STOCKS_TO_SELECT:
                     candidates.append(item)
+                    selected_codes.add(code)
+
+        # 如果仍然不足，从龙虎榜数据中补充
+        if len(candidates) < NUM_STOCKS_TO_SELECT:
+            lhb_stocks = data.get('lhb', {}).get('top_buy', [])
+            sorted_lhb = sorted(lhb_stocks, key=lambda x: x.get('net_buy', 0), reverse=True)
+
+            for item in sorted_lhb:
+                code = item.get('code', '')
+                if code not in selected_codes and len(candidates) < NUM_STOCKS_TO_SELECT:
+                    # 转换LHB数据格式为候选格式
+                    candidate = {
+                        'code': code,
+                        'name': item.get('name', ''),
+                        'close': item.get('close', 0),
+                        'pct': item.get('pct', 0),
+                        'vol': 0,
+                        'amount': 0,
+                        'turnover': 0,
+                        'industry': '',
+                        'daily': {},
+                        '60min': {},
+                        '15min': {}
+                    }
+                    candidates.append(candidate)
                     selected_codes.add(code)
         
         print(f'最终候选股票数量: {len(candidates)}只')
@@ -108,8 +133,8 @@ class StockAnalyzer:
         # 行业分类：优先使用股票自身的行业字段
         industry = stock.get('industry', '')
         if not industry or industry == '':
-            # 如果没有行业字段，从板块排名中取
-            industry = sector_names[index % len(sector_names)] if sector_names else '热门板块'
+            # 如果没有行业字段，使用默认值
+            industry = '热门板块'
 
         # 获取缠论分析结果
         daily = stock.get('daily', {})

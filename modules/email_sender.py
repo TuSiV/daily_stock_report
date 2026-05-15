@@ -16,7 +16,7 @@ class EmailSender:
         self.sender_password = os.getenv('SENDER_PASSWORD', '')
         self.receiver_emails = os.getenv('RECEIVER_EMAILS', '').split(',')
 
-    def send_email(self, report_path, png_path, pdf_path, time_info):
+    def send_email(self, report_path, pdf_path, time_info):
         if not self.sender_email or not self.sender_password:
             print('email config missing, skip')
             return

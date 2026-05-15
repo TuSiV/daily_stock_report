@@ -92,11 +92,28 @@ def main():
         # 使用AI基于缠论分析结果选股
         sectors = market_data.get('sectors', [])
         ai_selection = ai_analyzer.ai_select_stocks_chanlun(
-            market_data, 
-            chanlun_analysis, 
+            market_data,
+            chanlun_analysis,
             sectors,
             news_analysis
         )
+
+        # 如果缠论选股为空，使用龙虎榜数据的AI选股作为回退
+        if not ai_selection.get('selected_codes'):
+            print('缠论选股为空，尝试使用龙虎榜数据AI选股...')
+            lhb_data = market_data.get('lhb', {}).get('top_buy', [])
+            if lhb_data:
+                ai_selection = ai_analyzer.ai_select_stocks(market_data, lhb_data, sectors)
+                print(f'龙虎榜AI选股: {len(ai_selection.get("selected_codes", []))}只')
+
+            # 如果仍然为空，直接使用龙虎榜前5只
+            if not ai_selection.get('selected_codes') and lhb_data:
+                ai_selection = {
+                    'selected_codes': [s.get('code', '') for s in lhb_data[:5]],
+                    'ai_reasons': [{'code': s.get('code', ''), 'name': s.get('name', ''), 'reason': f"龙虎榜净买入{s.get('net_buy', 0):.0f}万"} for s in lhb_data[:5]],
+                    'market_logic': '基于龙虎榜资金净买入筛选'
+                }
+                print(f'使用龙虎榜前{len(ai_selection["selected_codes"])}只股票作为候选')
         
         # 准备增强数据
         enhanced_data = processed_data.copy()
@@ -186,15 +203,15 @@ def main():
         report_generator = ReportGenerator()
         report_path = report_generator.generate_report(analysis_results, time_info)
         
-        # 8. 转换为PNG和PDF
-        logger.info("第八步：转换为PNG和PDF")
+        # 8. 转换为PDF
+        logger.info("第八步：转换为PDF")
         converter = Converter()
-        png_path, pdf_path = converter.convert_to_png_pdf(report_path)
-        
+        pdf_path = converter.convert_to_pdf(report_path)
+
         # 9. 发送邮件
         logger.info("第九步：发送邮件")
         email_sender = EmailSender()
-        email_sender.send_email(report_path, png_path, pdf_path, time_info)
+        email_sender.send_email(report_path, pdf_path, time_info)
         
         logger.info("每日选股分析任务完成")
         

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""AI Analysis Module using Qwen (通义千问)"""
+"""AI Analysis Module using DeepSeek via OpenRouter"""
 
 import os
 import json
@@ -14,24 +14,24 @@ except ImportError:
 
 class AIAnalyzer:
     def __init__(self):
-        self.api_key = os.getenv('DASHSCOPE_API_KEY', '')
-        self.model = os.getenv('QWEN_MODEL', 'qwen3.6-35b-a3b')
-        
+        self.api_key = os.getenv('OPENROUTER_API_KEY', '')
+        self.model = os.getenv('OPENROUTER_MODEL', 'deepseek/deepseek-v4-flash:free')
+
         if OPENAI_AVAILABLE and self.api_key:
             self.client = OpenAI(
                 api_key=self.api_key,
-                base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
+                base_url="https://openrouter.ai/api/v1"
             )
             self.enabled = True
         else:
             self.enabled = False
-            print('AI disabled: DASHSCOPE_API_KEY not set or openai not installed')
+            print('AI disabled: OPENROUTER_API_KEY not set or openai not installed')
 
     def _call_ai(self, prompt: str, max_tokens: int = 500) -> str:
-        """Call Qwen API using OpenAI compatible mode"""
+        """Call DeepSeek API via OpenRouter"""
         if not self.enabled:
             return ''
-        
+
         try:
             response = self.client.chat.completions.create(
                 model=self.model,
@@ -42,8 +42,9 @@ class AIAnalyzer:
                 max_tokens=max_tokens,
                 temperature=0.7
             )
-            
-            return response.choices[0].message.content.strip()
+
+            content = response.choices[0].message.content
+            return content.strip() if content else ''
         except Exception as e:
             print(f'AI call error: {e}')
             return ''

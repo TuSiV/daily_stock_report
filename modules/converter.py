@@ -8,7 +8,7 @@ class Converter:
     def __init__(self):
         pass
 
-    def convert_to_png_pdf(self, md_path, width=800):
+    def convert_to_pdf(self, md_path, width=800):
         with open(md_path, 'r', encoding='utf-8') as f:
             md_content = f.read()
         
@@ -57,33 +57,7 @@ hr { border: none; border-top: 2px solid #eee; margin: 20px 0; }
             print('PDF generation failed:', e)
             pdf_path = None
 
-        # Generate PNG from PDF
-        png_path = md_path.replace('.md', '.png')
-        try:
-            from pdf2image import convert_from_path
-            from PIL import Image
-            if pdf_path and os.path.exists(pdf_path):
-                images = convert_from_path(pdf_path, dpi=300)
-                if len(images) == 1:
-                    images[0].save(png_path, 'PNG')
-                else:
-                    total_height = sum(img.height for img in images)
-                    max_width = max(img.width for img in images)
-                    combined = Image.new('RGB', (max_width, total_height), 'white')
-                    y_offset = 0
-                    for img in images:
-                        combined.paste(img, (0, y_offset))
-                        y_offset += img.height
-                    combined.save(png_path, 'PNG')
-                print('PNG saved to', png_path)
-            else:
-                print('No PDF for PNG conversion')
-                png_path = None
-        except Exception as e:
-            print('PNG generation failed:', e)
-            png_path = None
-
-        return png_path, pdf_path
+        return pdf_path
 
     def _generate_pdf_simple(self, md_content, pdf_path):
         """Generate PDF using reportlab with proper Chinese font support"""

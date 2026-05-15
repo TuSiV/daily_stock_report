@@ -259,7 +259,7 @@ class DataFetcher:
                 resp_data = gold_resp.json()
                 d = resp_data.get('data') if resp_data else None
                 if d and d.get('f43'):
-                    result['gold'] = {'price': str(d.get('f43', 0) / 100), 'pct': str(d.get('f170', 0) / 100)}
+                    result['gold'] = {'price': str(d.get('f43', 0) / 10), 'pct': str(d.get('f170', 0) / 100)}
                 else:
                     result['gold'] = {'price': None, 'pct': None, 'need_ai': True}
             else:
@@ -560,7 +560,32 @@ class DataFetcher:
             except Exception as e:
                 print(f'Sina sector fallback error: {e}')
 
+        # 3. 如果新浪也失败，尝试akshare
+        if not result and HAS_AKSHARE:
+            try:
+                result = self._fetch_sectors_akshare()
+            except Exception as e:
+                print(f'akshare sector fallback error: {e}')
+
         return result
+
+    def _fetch_sectors_akshare(self):
+        """从akshare获取行业板块数据（备选）"""
+        result = []
+        try:
+            import akshare as ak
+            df = ak.stock_board_industry_name_ths()
+            if df is not None and not df.empty:
+                for _, row in df.head(20).iterrows():
+                    name = str(row.get('板块名称', ''))
+                    pct = float(row.get('涨跌幅', 0))
+                    if name:
+                        result.append({'name': name, 'pct': pct})
+                result.sort(key=lambda x: x['pct'], reverse=True)
+                print(f'akshare sectors: {len(result)} items')
+        except Exception as e:
+            print(f'akshare sectors error: {e}')
+        return result[:20]
 
     def _fetch_sectors_sina(self):
         """从新浪财经获取行业板块数据"""
@@ -1098,135 +1123,258 @@ class DataFetcher:
     def fetch_hot_stocks(self, limit=50):
         """获取热门股票（涨幅榜+成交额榜综合）"""
         stocks = []
-        # 1. 优先尝试东方财富
-        try:
-            url = 'https://push2.eastmoney.com/api/qt/clist/get'
-            params = {
-                'pn': 1,
-                'pz': limit,
-                'po': 1,
-                'np': 1,
-                'ut': 'bd1d9ddb04089700cf9c27f6f7426281',
-                'fltt': 2,
-                'invt': 2,
-                'fid': 'f3',  # 按涨跌幅排序
-                'fs': 'm:0+t:6,m:0+t:13,m:1+t:2,m:1+t:23',
-                'fields': 'f12,f14,f2,f3,f4,f5,f6,f7,f8,f9,f20,f21,f33,f34,f100',
-                '_': int(time.time() * 1000)
-            }
 
-            resp = self._safe_get(url, params=params)
-            if resp:
-                data = resp.json()
-                if data.get('data') and data['data'].get('diff'):
-                    for item in data['data']['diff']:
-                        stock = {
-                            'code': item.get('f12', ''),
-                            'name': item.get('f14', ''),
-                            'close': float(item.get('f2', 0)),
-                            'pct': float(item.get('f3', 0)),
-                            'vol': float(item.get('f5', 0)),
-                            'amount': float(item.get('f6', 0)),
-                            'turnover': float(item.get('f8', 0)),
-                            'pe': float(item.get('f9', 0)) if item.get('f9') else 0,
-                            'mktcap': float(item.get('f20', 0)) if item.get('f20') else 0,
-                            'industry': str(item.get('f100', ''))  # 行业字段
-                        }
-                        if stock['code'] and stock['name'] and stock['pct'] > 0:
-                            stocks.append(stock)
+        # 1. 首选新浪财经排行API
+        stocks = self._fetch_hot_stocks_sina(limit)
 
-                    # 去重并按成交额排序
-                    seen = set()
-                    unique_stocks = []
-                    for s in stocks:
-                        if s['code'] not in seen:
-                            seen.add(s['code'])
-                            unique_stocks.append(s)
-
-                    stocks = sorted(unique_stocks, key=lambda x: x['amount'], reverse=True)[:limit]
-                    print(f'Fetched {len(stocks)} hot stocks')
-        except Exception as e:
-            print(f'Fetch hot stocks error: {e}')
-
-        # 2. 如果东方财富失败，用baostock获取涨幅榜
-        if not stocks and HAS_BAOSTOCK:
+        # 2. 备选akshare人气榜
+        if not stocks and HAS_AKSHARE:
             try:
-                stocks = self._fetch_hot_stocks_baostock(limit)
+                stocks = self._fetch_hot_stocks_akshare(limit)
             except Exception as e:
-                print(f'baostock hot stocks fallback error: {e}')
+                print(f'akshare hot stocks fallback error: {e}')
+
+        # 3. 使用akshare补充行业信息
+        if stocks and HAS_AKSHARE:
+            self._fill_industry_info(stocks)
 
         return stocks
 
-    def _fetch_hot_stocks_baostock(self, limit=50):
-        """用baostock获取今日涨幅较高的股票"""
-        stocks = []
+    def _fill_industry_info(self, stocks):
+        """批量获取股票行业信息"""
+        # 1. 尝试使用akshare
+        if self._fill_industry_akshare(stocks):
+            return
+
+        # 2. 尝试使用东方财富API
+        if self._fill_industry_eastmoney(stocks):
+            return
+
+        # 3. 尝试使用新浪财经API
+        self._fill_industry_sina(stocks)
+
+    def _fill_industry_akshare(self, stocks):
+        """使用akshare获取股票行业信息"""
         try:
-            import baostock as bs
-            bs.login()
-            # 获取最近交易日的A股数据
-            today = datetime.now().strftime('%Y-%m-%d')
-            # 获取上证+深证成分股
-            rs = bs.query_all_stock(day=today)
-            if rs.error_code != '0':
-                # 如果今天没数据，试昨天
-                yesterday = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
-                rs = bs.query_all_stock(day=yesterday)
+            import akshare as ak
+            import time
 
-            all_codes = []
-            code_names = {}
-            while rs.error_code == '0' and rs.next():
-                row = rs.get_row_data()
-                code = row[0]
-                name = row[2] if len(row) >= 3 else ''
-                # 只要主板、中小板、创业板（排除B股等）
-                if code.startswith('sh.60') or code.startswith('sh.68') or \
-                   code.startswith('sz.00') or code.startswith('sz.30'):
-                    all_codes.append(code)
-                    pure_code = code.split('.')[1]
-                    if name:
-                        code_names[pure_code] = name
-
-            # 批量获取最近10天数据计算涨跌幅
-            for code in all_codes[:200]:  # 限制查询数量避免太慢
-                try:
-                    krs = bs.query_history_k_data_plus(
-                        code,
-                        "date,code,close,amount,turn,pctChg",
-                        start_date=(datetime.now() - timedelta(days=15)).strftime('%Y-%m-%d'),
-                        end_date=today,
-                        frequency="d",
-                        adjustflag="2"
-                    )
-                    rows = []
-                    while krs.error_code == '0' and krs.next():
-                        rows.append(krs.get_row_data())
-
-                    if len(rows) >= 2:
-                        latest = rows[-1]
-                        close_price = float(latest[2]) if latest[2] else 0
-                        amount = float(latest[3]) if latest[3] else 0
-                        pct_chg = float(latest[5]) if latest[5] else 0
-
-                        if close_price > 0 and pct_chg > 0:
-                            pure_code = code.split('.')[1]
-                            stocks.append({
-                                'code': pure_code,
-                                'name': code_names.get(pure_code, pure_code),
-                                'close': close_price,
-                                'pct': pct_chg,
-                                'amount': amount,
-                                'vol': 0,
-                                'turnover': 0,
-                                'industry': ''
-                            })
-                except:
+            filled_count = 0
+            for stock in stocks:
+                code = stock.get('code', '')
+                if not code:
                     continue
 
-            bs.logout()
-            # 按涨幅排序取前N
-            stocks.sort(key=lambda x: x['pct'], reverse=True)
-            stocks = stocks[:limit]
-            print(f'baostock hot stocks: {len(stocks)} items')
+                # 重试机制
+                for attempt in range(3):
+                    try:
+                        # 获取单只股票信息
+                        df = ak.stock_individual_info_em(symbol=code)
+                        if df is not None and not df.empty:
+                            # 查找行业信息
+                            for _, row in df.iterrows():
+                                item = str(row.get('item', ''))
+                                value = str(row.get('value', ''))
+                                if item == '行业':
+                                    stock['industry'] = value
+                                    filled_count += 1
+                                    break
+                        break  # 成功则跳出重试循环
+                    except Exception as e:
+                        if attempt < 2:
+                            time.sleep(2)  # 失败后等待2秒再重试
+                        continue
+
+                time.sleep(1.5)  # 避免请求过快
+
+            print(f'akshare行业信息填充: {filled_count}/{len(stocks)}只股票')
+            return filled_count > 0
         except Exception as e:
-            print(f'baostock hot stocks error: {e}')
+            print(f'akshare行业信息填充失败: {e}')
+        return False
+
+    def _fill_industry_eastmoney(self, stocks):
+        """使用东方财富API获取股票行业信息"""
+        try:
+            # 构建secids
+            secids = []
+            for stock in stocks:
+                code = stock.get('code', '')
+                if code.startswith('6'):
+                    secids.append(f'1.{code}')
+                else:
+                    secids.append(f'0.{code}')
+
+            if not secids:
+                return
+
+            # 批量获取股票信息（包含行业）
+            batch_size = 50
+            for i in range(0, len(secids), batch_size):
+                batch = secids[i:i+batch_size]
+                secids_str = ','.join(batch)
+                url = f'https://push2.eastmoney.com/api/qt/ulist/get?secids={secids_str}&fields=f12,f14,f100'
+
+                resp = self._safe_get(url)
+                if resp:
+                    data = resp.json()
+                    if data.get('data') and data['data'].get('diff'):
+                        # 创建代码到行业的映射
+                        code_to_industry = {}
+                        for item in data['data']['diff']:
+                            code = item.get('f12', '')
+                            industry = item.get('f100', '')
+                            if code and industry:
+                                code_to_industry[code] = industry
+
+                        # 填充行业信息
+                        filled_count = 0
+                        for stock in stocks:
+                            code = stock.get('code', '')
+                            if code in code_to_industry:
+                                stock['industry'] = code_to_industry[code]
+                                filled_count += 1
+
+                        print(f'东方财富行业信息填充: {filled_count}/{len(stocks)}只股票')
+                        return True
+        except Exception as e:
+            print(f'东方财富行业信息填充失败: {e}')
+        return False
+
+    def _fill_industry_sina(self, stocks):
+        """使用新浪财经API获取股票行业信息"""
+        try:
+            headers = {
+                'User-Agent': USER_AGENT,
+                'Referer': 'https://finance.sina.com.cn/'
+            }
+
+            filled_count = 0
+            for stock in stocks:
+                code = stock.get('code', '')
+                if not code:
+                    continue
+
+                # 新浪财经个股信息API
+                url = f'https://finance.sina.com.cn/realstock/company/{code}/nc.shtml'
+                resp = self._safe_get(url, headers=headers)
+                if resp:
+                    from bs4 import BeautifulSoup
+                    soup = BeautifulSoup(resp.text, 'lxml')
+
+                    # 查找行业信息
+                    # 通常在页面的公司概况部分
+                    industry_elem = soup.find('a', href=lambda x: x and 'industry' in x.lower())
+                    if industry_elem:
+                        industry = industry_elem.get_text().strip()
+                        if industry:
+                            stock['industry'] = industry
+                            filled_count += 1
+                            continue
+
+                    # 备用方式：查找包含"行业"的文本
+                    for elem in soup.find_all(['td', 'span', 'div']):
+                        text = elem.get_text().strip()
+                        if '行业' in text and len(text) < 20:
+                            # 查找下一个兄弟元素作为行业值
+                            next_elem = elem.find_next_sibling()
+                            if next_elem:
+                                industry = next_elem.get_text().strip()
+                                if industry and len(industry) < 20:
+                                    stock['industry'] = industry
+                                    filled_count += 1
+                                    break
+
+            print(f'新浪财经行业信息填充: {filled_count}/{len(stocks)}只股票')
+        except Exception as e:
+            print(f'新浪财经行业信息填充失败: {e}')
+
+    def _fetch_hot_stocks_sina(self, limit=50):
+        """从新浪财经获取热门股票（涨幅榜+成交额榜合并）"""
+        stocks = []
+        headers = {
+            'User-Agent': USER_AGENT,
+            'Referer': 'https://finance.sina.com.cn/'
+        }
+        url = 'https://vip.stock.finance.sina.com.cn/quotes_service/api/json_v2.php/Market_Center.getHQNodeData'
+
+        # 同时获取涨幅榜和成交额榜
+        for sort_key, label in [('changepercent', '涨幅'), ('amount', '成交额')]:
+            try:
+                params = {
+                    'page': 1,
+                    'num': limit,
+                    'sort': sort_key,
+                    'asc': 0,
+                    'node': 'hs_a',
+                    'symbol': '',
+                    '_s_r_a': 'init'
+                }
+                resp = self._safe_get(url, params=params, headers=headers)
+                if resp:
+                    data = resp.json()
+                    if data:
+                        for item in data:
+                            code = item.get('symbol', '')  # sh600000 格式
+                            # 转换为纯数字代码
+                            pure_code = code[2:] if len(code) > 2 else code
+                            stock = {
+                                'code': pure_code,
+                                'name': item.get('name', ''),
+                                'close': float(item.get('trade', 0)),
+                                'pct': float(item.get('changepercent', 0)),
+                                'vol': float(item.get('volume', 0)),
+                                'amount': float(item.get('amount', 0)),
+                                'turnover': float(item.get('turnoverratio', 0)),
+                                'pe': 0,
+                                'mktcap': float(item.get('mktcap', 0)),
+                                'industry': ''
+                            }
+                            if stock['code'] and stock['name']:
+                                stocks.append(stock)
+                        print(f'Sina {label}榜: {len(data)} items')
+            except Exception as e:
+                print(f'Sina {label}榜 error: {e}')
+
+        if stocks:
+            # 去重，按成交额排序
+            seen = set()
+            unique_stocks = []
+            for s in stocks:
+                if s['code'] not in seen:
+                    seen.add(s['code'])
+                    unique_stocks.append(s)
+            stocks = sorted(unique_stocks, key=lambda x: x['amount'], reverse=True)[:limit]
+            print(f'Sina hot stocks total: {len(stocks)} items (merged)')
+
+        return stocks
+
+    def _fetch_hot_stocks_akshare(self, limit=50):
+        """从akshare获取人气榜股票（备选）"""
+        stocks = []
+        try:
+            import akshare as ak
+            df = ak.stock_hot_rank_em()
+            if df is not None and not df.empty:
+                for _, row in df.head(limit).iterrows():
+                    code = str(row.get('股票代码', ''))
+                    name = str(row.get('股票简称', ''))
+                    pct = float(row.get('涨跌幅', 0))
+                    close = float(row.get('最新价', 0))
+                    if code and name and pct > 0:
+                        stocks.append({
+                            'code': code,
+                            'name': name,
+                            'close': close,
+                            'pct': pct,
+                            'vol': 0,
+                            'amount': 0,
+                            'turnover': 0,
+                            'pe': 0,
+                            'mktcap': 0,
+                            'industry': ''
+                        })
+                print(f'akshare hot stocks: {len(stocks)} items')
+        except Exception as e:
+            print(f'akshare hot stocks error: {e}')
         return stocks
